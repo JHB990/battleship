@@ -17,5 +17,5 @@ public class Battleship {
         // TODO code application logic here
         //este es un nuevo comentario
     }
-    
+    //Esto es un comentario hecho por Jhos
 }
