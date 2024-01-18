@@ -1871,7 +1871,7 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel6">
+    <Component class="javax.swing.JLabel" name="lblBoardSideC">
       <Properties>
         <Property name="text" type="java.lang.String" value="C"/>
       </Properties>
