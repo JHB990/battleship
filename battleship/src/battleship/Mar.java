@@ -130,7 +130,7 @@ public class Mar extends javax.swing.JFrame {
         lbl96 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         lblBoardSideA = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        lblBoardSideB = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -756,9 +756,9 @@ public class Mar extends javax.swing.JFrame {
         getContentPane().add(lblBoardSideA);
         lblBoardSideA.setBounds(20, 70, 20, 16);
 
-        jLabel5.setText("B");
-        getContentPane().add(jLabel5);
-        jLabel5.setBounds(20, 130, 20, 16);
+        lblBoardSideB.setText("B");
+        getContentPane().add(lblBoardSideB);
+        lblBoardSideB.setBounds(20, 130, 20, 16);
 
         jLabel6.setText("C");
         getContentPane().add(jLabel6);
@@ -832,7 +832,6 @@ public class Mar extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
@@ -938,6 +937,7 @@ public class Mar extends javax.swing.JFrame {
     private javax.swing.JLabel lbl95;
     private javax.swing.JLabel lbl96;
     private javax.swing.JLabel lblBoardSideA;
+    private javax.swing.JLabel lblBoardSideB;
     private javax.swing.JLabel lblBoardTopNumbers;
     // End of variables declaration//GEN-END:variables
 }

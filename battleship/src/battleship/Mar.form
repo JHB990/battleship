@@ -1861,7 +1861,7 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel5">
+    <Component class="javax.swing.JLabel" name="lblBoardSideB">
       <Properties>
         <Property name="text" type="java.lang.String" value="B"/>
       </Properties>
