@@ -15,7 +15,7 @@ public class Mar extends javax.swing.JFrame {
      */
     public Mar() {
         initComponents();
-        jLabel4.setBounds(100, 100, 60, 60);
+        lbl03.setBounds(100, 100, 60, 60);
     }
 
     /**
@@ -27,49 +27,766 @@ public class Mar extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        lbl00 = new javax.swing.JLabel();
+        lblBoardTopNumbers = new javax.swing.JLabel();
+        lbl03 = new javax.swing.JLabel();
+        lbl01 = new javax.swing.JLabel();
+        lbl02 = new javax.swing.JLabel();
+        lbl1 = new javax.swing.JLabel();
+        lbl2 = new javax.swing.JLabel();
+        lbl3 = new javax.swing.JLabel();
+        lbl4 = new javax.swing.JLabel();
+        lbl5 = new javax.swing.JLabel();
+        lbl6 = new javax.swing.JLabel();
+        lbl7 = new javax.swing.JLabel();
+        lbl8 = new javax.swing.JLabel();
+        lbl9 = new javax.swing.JLabel();
+        lbl10 = new javax.swing.JLabel();
+        lbl11 = new javax.swing.JLabel();
+        lbl12 = new javax.swing.JLabel();
+        lbl13 = new javax.swing.JLabel();
+        lbl14 = new javax.swing.JLabel();
+        lbl15 = new javax.swing.JLabel();
+        lbl16 = new javax.swing.JLabel();
+        lbl17 = new javax.swing.JLabel();
+        lbl18 = new javax.swing.JLabel();
+        lbl19 = new javax.swing.JLabel();
+        lbl20 = new javax.swing.JLabel();
+        lbl21 = new javax.swing.JLabel();
+        lbl22 = new javax.swing.JLabel();
+        lbl23 = new javax.swing.JLabel();
+        lbl24 = new javax.swing.JLabel();
+        lbl25 = new javax.swing.JLabel();
+        lbl26 = new javax.swing.JLabel();
+        lbl27 = new javax.swing.JLabel();
+        lbl28 = new javax.swing.JLabel();
+        lbl29 = new javax.swing.JLabel();
+        lbl30 = new javax.swing.JLabel();
+        lbl31 = new javax.swing.JLabel();
+        lbl32 = new javax.swing.JLabel();
+        lbl33 = new javax.swing.JLabel();
+        lbl34 = new javax.swing.JLabel();
+        lbl35 = new javax.swing.JLabel();
+        lbl36 = new javax.swing.JLabel();
+        lbl37 = new javax.swing.JLabel();
+        lbl38 = new javax.swing.JLabel();
+        lbl39 = new javax.swing.JLabel();
+        lbl40 = new javax.swing.JLabel();
+        lbl41 = new javax.swing.JLabel();
+        lbl42 = new javax.swing.JLabel();
+        lbl43 = new javax.swing.JLabel();
+        lbl44 = new javax.swing.JLabel();
+        lbl45 = new javax.swing.JLabel();
+        lbl46 = new javax.swing.JLabel();
+        lbl47 = new javax.swing.JLabel();
+        lbl48 = new javax.swing.JLabel();
+        lbl49 = new javax.swing.JLabel();
+        lbl50 = new javax.swing.JLabel();
+        lbl51 = new javax.swing.JLabel();
+        lbl52 = new javax.swing.JLabel();
+        lbl53 = new javax.swing.JLabel();
+        lbl54 = new javax.swing.JLabel();
+        lbl55 = new javax.swing.JLabel();
+        lbl56 = new javax.swing.JLabel();
+        lbl57 = new javax.swing.JLabel();
+        lbl58 = new javax.swing.JLabel();
+        lbl59 = new javax.swing.JLabel();
+        lbl60 = new javax.swing.JLabel();
+        lbl61 = new javax.swing.JLabel();
+        lbl62 = new javax.swing.JLabel();
+        lbl63 = new javax.swing.JLabel();
+        lbl64 = new javax.swing.JLabel();
+        lbl65 = new javax.swing.JLabel();
+        lbl66 = new javax.swing.JLabel();
+        lbl67 = new javax.swing.JLabel();
+        lbl68 = new javax.swing.JLabel();
+        lbl69 = new javax.swing.JLabel();
+        lbl70 = new javax.swing.JLabel();
+        lbl71 = new javax.swing.JLabel();
+        lbl72 = new javax.swing.JLabel();
+        lbl73 = new javax.swing.JLabel();
+        lbl74 = new javax.swing.JLabel();
+        lbl75 = new javax.swing.JLabel();
+        lbl76 = new javax.swing.JLabel();
+        lbl77 = new javax.swing.JLabel();
+        lbl78 = new javax.swing.JLabel();
+        lbl79 = new javax.swing.JLabel();
+        lbl80 = new javax.swing.JLabel();
+        lbl81 = new javax.swing.JLabel();
+        lbl82 = new javax.swing.JLabel();
+        lbl83 = new javax.swing.JLabel();
+        lbl84 = new javax.swing.JLabel();
+        lbl85 = new javax.swing.JLabel();
+        lbl86 = new javax.swing.JLabel();
+        lbl87 = new javax.swing.JLabel();
+        lbl88 = new javax.swing.JLabel();
+        lbl89 = new javax.swing.JLabel();
+        lbl90 = new javax.swing.JLabel();
+        lbl91 = new javax.swing.JLabel();
+        lbl92 = new javax.swing.JLabel();
+        lbl93 = new javax.swing.JLabel();
+        lbl94 = new javax.swing.JLabel();
+        lbl95 = new javax.swing.JLabel();
+        lbl96 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
+        lblBoardSideA = new javax.swing.JLabel();
+        lblBoardSideB = new javax.swing.JLabel();
+        lblBoardSideC = new javax.swing.JLabel();
+        lblBoardSideD = new javax.swing.JLabel();
+        lblBoardSideE = new javax.swing.JLabel();
+        lblBoardSideF = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBounds(new java.awt.Rectangle(0, 0, 1300, 900));
         setMinimumSize(new java.awt.Dimension(1300, 900));
         getContentPane().setLayout(null);
 
-        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jLabel1.setOpaque(true);
+        lbl00.setBackground(new java.awt.Color(255, 255, 255));
+        lbl00.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl00.setOpaque(true);
+        getContentPane().add(lbl00);
+        lbl00.setBounds(40, 50, 60, 60);
+
+        lblBoardTopNumbers.setText("1                  2                 3                  4                   5                6                   7                   8                 9                 10");
+        getContentPane().add(lblBoardTopNumbers);
+        lblBoardTopNumbers.setBounds(70, 20, 600, 16);
+
+        lbl03.setBackground(new java.awt.Color(255, 255, 255));
+        lbl03.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl03.setOpaque(true);
+        getContentPane().add(lbl03);
+        lbl03.setBounds(220, 50, 60, 60);
+
+        lbl01.setBackground(new java.awt.Color(255, 255, 255));
+        lbl01.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl01.setOpaque(true);
+        getContentPane().add(lbl01);
+        lbl01.setBounds(100, 50, 60, 60);
+
+        lbl02.setBackground(new java.awt.Color(255, 255, 255));
+        lbl02.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl02.setOpaque(true);
+        getContentPane().add(lbl02);
+        lbl02.setBounds(160, 50, 60, 60);
+
+        lbl1.setBackground(new java.awt.Color(255, 255, 255));
+        lbl1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl1.setOpaque(true);
+        getContentPane().add(lbl1);
+        lbl1.setBounds(280, 50, 60, 60);
+
+        lbl2.setBackground(new java.awt.Color(255, 255, 255));
+        lbl2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl2.setOpaque(true);
+        getContentPane().add(lbl2);
+        lbl2.setBounds(340, 50, 60, 60);
+
+        lbl3.setBackground(new java.awt.Color(255, 255, 255));
+        lbl3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl3.setOpaque(true);
+        getContentPane().add(lbl3);
+        lbl3.setBounds(400, 50, 60, 60);
+
+        lbl4.setBackground(new java.awt.Color(255, 255, 255));
+        lbl4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl4.setOpaque(true);
+        getContentPane().add(lbl4);
+        lbl4.setBounds(460, 50, 60, 60);
+
+        lbl5.setBackground(new java.awt.Color(255, 255, 255));
+        lbl5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl5.setOpaque(true);
+        getContentPane().add(lbl5);
+        lbl5.setBounds(520, 50, 60, 60);
+
+        lbl6.setBackground(new java.awt.Color(255, 255, 255));
+        lbl6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl6.setOpaque(true);
+        getContentPane().add(lbl6);
+        lbl6.setBounds(580, 50, 60, 60);
+
+        lbl7.setBackground(new java.awt.Color(255, 255, 255));
+        lbl7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl7.setOpaque(true);
+        getContentPane().add(lbl7);
+        lbl7.setBounds(40, 110, 60, 60);
+
+        lbl8.setBackground(new java.awt.Color(255, 255, 255));
+        lbl8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl8.setOpaque(true);
+        getContentPane().add(lbl8);
+        lbl8.setBounds(100, 110, 60, 60);
+
+        lbl9.setBackground(new java.awt.Color(255, 255, 255));
+        lbl9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl9.setOpaque(true);
+        getContentPane().add(lbl9);
+        lbl9.setBounds(160, 110, 60, 60);
+
+        lbl10.setBackground(new java.awt.Color(255, 255, 255));
+        lbl10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl10.setOpaque(true);
+        getContentPane().add(lbl10);
+        lbl10.setBounds(220, 110, 60, 60);
+
+        lbl11.setBackground(new java.awt.Color(255, 255, 255));
+        lbl11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl11.setOpaque(true);
+        getContentPane().add(lbl11);
+        lbl11.setBounds(280, 110, 60, 60);
+
+        lbl12.setBackground(new java.awt.Color(255, 255, 255));
+        lbl12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl12.setOpaque(true);
+        getContentPane().add(lbl12);
+        lbl12.setBounds(340, 110, 60, 60);
+
+        lbl13.setBackground(new java.awt.Color(255, 255, 255));
+        lbl13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl13.setOpaque(true);
+        getContentPane().add(lbl13);
+        lbl13.setBounds(400, 110, 60, 60);
+
+        lbl14.setBackground(new java.awt.Color(255, 255, 255));
+        lbl14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl14.setOpaque(true);
+        getContentPane().add(lbl14);
+        lbl14.setBounds(460, 110, 60, 60);
+
+        lbl15.setBackground(new java.awt.Color(255, 255, 255));
+        lbl15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl15.setOpaque(true);
+        getContentPane().add(lbl15);
+        lbl15.setBounds(520, 110, 60, 60);
+
+        lbl16.setBackground(new java.awt.Color(255, 255, 255));
+        lbl16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl16.setOpaque(true);
+        getContentPane().add(lbl16);
+        lbl16.setBounds(580, 110, 60, 60);
+
+        lbl17.setBackground(new java.awt.Color(255, 255, 255));
+        lbl17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl17.setOpaque(true);
+        getContentPane().add(lbl17);
+        lbl17.setBounds(40, 170, 60, 60);
+
+        lbl18.setBackground(new java.awt.Color(255, 255, 255));
+        lbl18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl18.setOpaque(true);
+        getContentPane().add(lbl18);
+        lbl18.setBounds(100, 170, 60, 60);
+
+        lbl19.setBackground(new java.awt.Color(255, 255, 255));
+        lbl19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl19.setOpaque(true);
+        getContentPane().add(lbl19);
+        lbl19.setBounds(160, 170, 60, 60);
+
+        lbl20.setBackground(new java.awt.Color(255, 255, 255));
+        lbl20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl20.setOpaque(true);
+        getContentPane().add(lbl20);
+        lbl20.setBounds(220, 170, 60, 60);
+
+        lbl21.setBackground(new java.awt.Color(255, 255, 255));
+        lbl21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl21.setOpaque(true);
+        getContentPane().add(lbl21);
+        lbl21.setBounds(280, 170, 60, 60);
+
+        lbl22.setBackground(new java.awt.Color(255, 255, 255));
+        lbl22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl22.setOpaque(true);
+        getContentPane().add(lbl22);
+        lbl22.setBounds(340, 170, 60, 60);
+
+        lbl23.setBackground(new java.awt.Color(255, 255, 255));
+        lbl23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl23.setOpaque(true);
+        getContentPane().add(lbl23);
+        lbl23.setBounds(400, 170, 60, 60);
+
+        lbl24.setBackground(new java.awt.Color(255, 255, 255));
+        lbl24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl24.setOpaque(true);
+        getContentPane().add(lbl24);
+        lbl24.setBounds(460, 170, 60, 60);
+
+        lbl25.setBackground(new java.awt.Color(255, 255, 255));
+        lbl25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl25.setOpaque(true);
+        getContentPane().add(lbl25);
+        lbl25.setBounds(520, 170, 60, 60);
+
+        lbl26.setBackground(new java.awt.Color(255, 255, 255));
+        lbl26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl26.setOpaque(true);
+        getContentPane().add(lbl26);
+        lbl26.setBounds(580, 170, 60, 60);
+
+        lbl27.setBackground(new java.awt.Color(255, 255, 255));
+        lbl27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl27.setOpaque(true);
+        getContentPane().add(lbl27);
+        lbl27.setBounds(40, 230, 60, 60);
+
+        lbl28.setBackground(new java.awt.Color(255, 255, 255));
+        lbl28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl28.setOpaque(true);
+        getContentPane().add(lbl28);
+        lbl28.setBounds(220, 230, 60, 60);
+
+        lbl29.setBackground(new java.awt.Color(255, 255, 255));
+        lbl29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl29.setOpaque(true);
+        getContentPane().add(lbl29);
+        lbl29.setBounds(100, 230, 60, 60);
+
+        lbl30.setBackground(new java.awt.Color(255, 255, 255));
+        lbl30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl30.setOpaque(true);
+        getContentPane().add(lbl30);
+        lbl30.setBounds(160, 230, 60, 60);
+
+        lbl31.setBackground(new java.awt.Color(255, 255, 255));
+        lbl31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl31.setOpaque(true);
+        getContentPane().add(lbl31);
+        lbl31.setBounds(280, 230, 60, 60);
+
+        lbl32.setBackground(new java.awt.Color(255, 255, 255));
+        lbl32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl32.setOpaque(true);
+        getContentPane().add(lbl32);
+        lbl32.setBounds(340, 230, 60, 60);
+
+        lbl33.setBackground(new java.awt.Color(255, 255, 255));
+        lbl33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl33.setOpaque(true);
+        getContentPane().add(lbl33);
+        lbl33.setBounds(400, 230, 60, 60);
+
+        lbl34.setBackground(new java.awt.Color(255, 255, 255));
+        lbl34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl34.setOpaque(true);
+        getContentPane().add(lbl34);
+        lbl34.setBounds(460, 230, 60, 60);
+
+        lbl35.setBackground(new java.awt.Color(255, 255, 255));
+        lbl35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl35.setOpaque(true);
+        getContentPane().add(lbl35);
+        lbl35.setBounds(520, 230, 60, 60);
+
+        lbl36.setBackground(new java.awt.Color(255, 255, 255));
+        lbl36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl36.setOpaque(true);
+        getContentPane().add(lbl36);
+        lbl36.setBounds(580, 230, 60, 60);
+
+        lbl37.setBackground(new java.awt.Color(255, 255, 255));
+        lbl37.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl37.setOpaque(true);
+        getContentPane().add(lbl37);
+        lbl37.setBounds(40, 290, 60, 60);
+
+        lbl38.setBackground(new java.awt.Color(255, 255, 255));
+        lbl38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl38.setOpaque(true);
+        getContentPane().add(lbl38);
+        lbl38.setBounds(100, 290, 60, 60);
+
+        lbl39.setBackground(new java.awt.Color(255, 255, 255));
+        lbl39.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl39.setOpaque(true);
+        getContentPane().add(lbl39);
+        lbl39.setBounds(160, 290, 60, 60);
+
+        lbl40.setBackground(new java.awt.Color(255, 255, 255));
+        lbl40.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl40.setOpaque(true);
+        getContentPane().add(lbl40);
+        lbl40.setBounds(220, 290, 60, 60);
+
+        lbl41.setBackground(new java.awt.Color(255, 255, 255));
+        lbl41.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl41.setOpaque(true);
+        getContentPane().add(lbl41);
+        lbl41.setBounds(280, 290, 60, 60);
+
+        lbl42.setBackground(new java.awt.Color(255, 255, 255));
+        lbl42.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl42.setOpaque(true);
+        getContentPane().add(lbl42);
+        lbl42.setBounds(340, 290, 60, 60);
+
+        lbl43.setBackground(new java.awt.Color(255, 255, 255));
+        lbl43.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl43.setOpaque(true);
+        getContentPane().add(lbl43);
+        lbl43.setBounds(400, 290, 60, 60);
+
+        lbl44.setBackground(new java.awt.Color(255, 255, 255));
+        lbl44.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl44.setOpaque(true);
+        getContentPane().add(lbl44);
+        lbl44.setBounds(460, 290, 60, 60);
+
+        lbl45.setBackground(new java.awt.Color(255, 255, 255));
+        lbl45.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl45.setOpaque(true);
+        getContentPane().add(lbl45);
+        lbl45.setBounds(520, 290, 60, 60);
+
+        lbl46.setBackground(new java.awt.Color(255, 255, 255));
+        lbl46.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl46.setOpaque(true);
+        getContentPane().add(lbl46);
+        lbl46.setBounds(580, 290, 60, 60);
+
+        lbl47.setBackground(new java.awt.Color(255, 255, 255));
+        lbl47.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl47.setOpaque(true);
+        getContentPane().add(lbl47);
+        lbl47.setBounds(40, 350, 60, 60);
+
+        lbl48.setBackground(new java.awt.Color(255, 255, 255));
+        lbl48.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl48.setOpaque(true);
+        getContentPane().add(lbl48);
+        lbl48.setBounds(100, 350, 60, 60);
+
+        lbl49.setBackground(new java.awt.Color(255, 255, 255));
+        lbl49.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl49.setOpaque(true);
+        getContentPane().add(lbl49);
+        lbl49.setBounds(160, 350, 60, 60);
+
+        lbl50.setBackground(new java.awt.Color(255, 255, 255));
+        lbl50.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl50.setOpaque(true);
+        getContentPane().add(lbl50);
+        lbl50.setBounds(220, 350, 60, 60);
+
+        lbl51.setBackground(new java.awt.Color(255, 255, 255));
+        lbl51.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl51.setOpaque(true);
+        getContentPane().add(lbl51);
+        lbl51.setBounds(280, 350, 60, 60);
+
+        lbl52.setBackground(new java.awt.Color(255, 255, 255));
+        lbl52.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl52.setOpaque(true);
+        getContentPane().add(lbl52);
+        lbl52.setBounds(340, 350, 60, 60);
+
+        lbl53.setBackground(new java.awt.Color(255, 255, 255));
+        lbl53.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl53.setOpaque(true);
+        getContentPane().add(lbl53);
+        lbl53.setBounds(400, 350, 60, 60);
+
+        lbl54.setBackground(new java.awt.Color(255, 255, 255));
+        lbl54.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl54.setOpaque(true);
+        getContentPane().add(lbl54);
+        lbl54.setBounds(460, 350, 60, 60);
+
+        lbl55.setBackground(new java.awt.Color(255, 255, 255));
+        lbl55.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl55.setOpaque(true);
+        getContentPane().add(lbl55);
+        lbl55.setBounds(520, 350, 60, 60);
+
+        lbl56.setBackground(new java.awt.Color(255, 255, 255));
+        lbl56.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl56.setOpaque(true);
+        getContentPane().add(lbl56);
+        lbl56.setBounds(580, 350, 60, 60);
+
+        lbl57.setBackground(new java.awt.Color(255, 255, 255));
+        lbl57.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl57.setOpaque(true);
+        getContentPane().add(lbl57);
+        lbl57.setBounds(40, 410, 60, 60);
+
+        lbl58.setBackground(new java.awt.Color(255, 255, 255));
+        lbl58.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl58.setOpaque(true);
+        getContentPane().add(lbl58);
+        lbl58.setBounds(220, 410, 60, 60);
+
+        lbl59.setBackground(new java.awt.Color(255, 255, 255));
+        lbl59.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl59.setOpaque(true);
+        getContentPane().add(lbl59);
+        lbl59.setBounds(100, 410, 60, 60);
+
+        lbl60.setBackground(new java.awt.Color(255, 255, 255));
+        lbl60.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl60.setOpaque(true);
+        getContentPane().add(lbl60);
+        lbl60.setBounds(160, 410, 60, 60);
+
+        lbl61.setBackground(new java.awt.Color(255, 255, 255));
+        lbl61.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl61.setOpaque(true);
+        getContentPane().add(lbl61);
+        lbl61.setBounds(280, 410, 60, 60);
+
+        lbl62.setBackground(new java.awt.Color(255, 255, 255));
+        lbl62.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl62.setOpaque(true);
+        getContentPane().add(lbl62);
+        lbl62.setBounds(340, 410, 60, 60);
+
+        lbl63.setBackground(new java.awt.Color(255, 255, 255));
+        lbl63.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl63.setOpaque(true);
+        getContentPane().add(lbl63);
+        lbl63.setBounds(400, 410, 60, 60);
+
+        lbl64.setBackground(new java.awt.Color(255, 255, 255));
+        lbl64.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl64.setOpaque(true);
+        getContentPane().add(lbl64);
+        lbl64.setBounds(460, 410, 60, 60);
+
+        lbl65.setBackground(new java.awt.Color(255, 255, 255));
+        lbl65.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl65.setOpaque(true);
+        getContentPane().add(lbl65);
+        lbl65.setBounds(520, 410, 60, 60);
+
+        lbl66.setBackground(new java.awt.Color(255, 255, 255));
+        lbl66.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl66.setOpaque(true);
+        getContentPane().add(lbl66);
+        lbl66.setBounds(580, 410, 60, 60);
+
+        lbl67.setBackground(new java.awt.Color(255, 255, 255));
+        lbl67.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl67.setOpaque(true);
+        getContentPane().add(lbl67);
+        lbl67.setBounds(40, 470, 60, 60);
+
+        lbl68.setBackground(new java.awt.Color(255, 255, 255));
+        lbl68.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl68.setOpaque(true);
+        getContentPane().add(lbl68);
+        lbl68.setBounds(100, 470, 60, 60);
+
+        lbl69.setBackground(new java.awt.Color(255, 255, 255));
+        lbl69.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl69.setOpaque(true);
+        getContentPane().add(lbl69);
+        lbl69.setBounds(160, 470, 60, 60);
+
+        lbl70.setBackground(new java.awt.Color(255, 255, 255));
+        lbl70.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl70.setOpaque(true);
+        getContentPane().add(lbl70);
+        lbl70.setBounds(220, 470, 60, 60);
+
+        lbl71.setBackground(new java.awt.Color(255, 255, 255));
+        lbl71.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl71.setOpaque(true);
+        getContentPane().add(lbl71);
+        lbl71.setBounds(280, 470, 60, 60);
+
+        lbl72.setBackground(new java.awt.Color(255, 255, 255));
+        lbl72.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl72.setOpaque(true);
+        getContentPane().add(lbl72);
+        lbl72.setBounds(340, 470, 60, 60);
+
+        lbl73.setBackground(new java.awt.Color(255, 255, 255));
+        lbl73.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl73.setOpaque(true);
+        getContentPane().add(lbl73);
+        lbl73.setBounds(400, 470, 60, 60);
+
+        lbl74.setBackground(new java.awt.Color(255, 255, 255));
+        lbl74.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl74.setOpaque(true);
+        getContentPane().add(lbl74);
+        lbl74.setBounds(460, 470, 60, 60);
+
+        lbl75.setBackground(new java.awt.Color(255, 255, 255));
+        lbl75.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl75.setOpaque(true);
+        getContentPane().add(lbl75);
+        lbl75.setBounds(520, 470, 60, 60);
+
+        lbl76.setBackground(new java.awt.Color(255, 255, 255));
+        lbl76.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl76.setOpaque(true);
+        getContentPane().add(lbl76);
+        lbl76.setBounds(580, 470, 60, 60);
+
+        lbl77.setBackground(new java.awt.Color(255, 255, 255));
+        lbl77.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl77.setOpaque(true);
+        getContentPane().add(lbl77);
+        lbl77.setBounds(40, 530, 60, 60);
+
+        lbl78.setBackground(new java.awt.Color(255, 255, 255));
+        lbl78.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl78.setOpaque(true);
+        getContentPane().add(lbl78);
+        lbl78.setBounds(100, 530, 60, 60);
+
+        lbl79.setBackground(new java.awt.Color(255, 255, 255));
+        lbl79.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl79.setOpaque(true);
+        getContentPane().add(lbl79);
+        lbl79.setBounds(160, 530, 60, 60);
+
+        lbl80.setBackground(new java.awt.Color(255, 255, 255));
+        lbl80.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl80.setOpaque(true);
+        getContentPane().add(lbl80);
+        lbl80.setBounds(220, 530, 60, 60);
+
+        lbl81.setBackground(new java.awt.Color(255, 255, 255));
+        lbl81.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl81.setOpaque(true);
+        getContentPane().add(lbl81);
+        lbl81.setBounds(280, 530, 60, 60);
+
+        lbl82.setBackground(new java.awt.Color(255, 255, 255));
+        lbl82.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl82.setOpaque(true);
+        getContentPane().add(lbl82);
+        lbl82.setBounds(340, 530, 60, 60);
+
+        lbl83.setBackground(new java.awt.Color(255, 255, 255));
+        lbl83.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl83.setOpaque(true);
+        getContentPane().add(lbl83);
+        lbl83.setBounds(400, 530, 60, 60);
+
+        lbl84.setBackground(new java.awt.Color(255, 255, 255));
+        lbl84.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl84.setOpaque(true);
+        getContentPane().add(lbl84);
+        lbl84.setBounds(460, 530, 60, 60);
+
+        lbl85.setBackground(new java.awt.Color(255, 255, 255));
+        lbl85.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl85.setOpaque(true);
+        getContentPane().add(lbl85);
+        lbl85.setBounds(520, 530, 60, 60);
+
+        lbl86.setBackground(new java.awt.Color(255, 255, 255));
+        lbl86.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl86.setOpaque(true);
+        getContentPane().add(lbl86);
+        lbl86.setBounds(580, 530, 60, 60);
+
+        lbl87.setBackground(new java.awt.Color(255, 255, 255));
+        lbl87.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl87.setOpaque(true);
+        getContentPane().add(lbl87);
+        lbl87.setBounds(40, 590, 60, 60);
+
+        lbl88.setBackground(new java.awt.Color(255, 255, 255));
+        lbl88.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl88.setOpaque(true);
+        getContentPane().add(lbl88);
+        lbl88.setBounds(100, 590, 60, 60);
+
+        lbl89.setBackground(new java.awt.Color(255, 255, 255));
+        lbl89.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl89.setOpaque(true);
+        getContentPane().add(lbl89);
+        lbl89.setBounds(160, 590, 60, 60);
+
+        lbl90.setBackground(new java.awt.Color(255, 255, 255));
+        lbl90.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl90.setOpaque(true);
+        getContentPane().add(lbl90);
+        lbl90.setBounds(220, 590, 60, 60);
+
+        lbl91.setBackground(new java.awt.Color(255, 255, 255));
+        lbl91.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl91.setOpaque(true);
+        getContentPane().add(lbl91);
+        lbl91.setBounds(280, 590, 60, 60);
+
+        lbl92.setBackground(new java.awt.Color(255, 255, 255));
+        lbl92.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl92.setOpaque(true);
+        getContentPane().add(lbl92);
+        lbl92.setBounds(340, 590, 60, 60);
+
+        lbl93.setBackground(new java.awt.Color(255, 255, 255));
+        lbl93.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl93.setOpaque(true);
+        getContentPane().add(lbl93);
+        lbl93.setBounds(400, 590, 60, 60);
+
+        lbl94.setBackground(new java.awt.Color(255, 255, 255));
+        lbl94.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl94.setOpaque(true);
+        getContentPane().add(lbl94);
+        lbl94.setBounds(460, 590, 60, 60);
+
+        lbl95.setBackground(new java.awt.Color(255, 255, 255));
+        lbl95.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl95.setOpaque(true);
+        getContentPane().add(lbl95);
+        lbl95.setBounds(520, 590, 60, 60);
+
+        lbl96.setBackground(new java.awt.Color(255, 255, 255));
+        lbl96.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        lbl96.setOpaque(true);
+        getContentPane().add(lbl96);
+        lbl96.setBounds(580, 590, 60, 60);
+
+        jLabel1.setText("J");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(40, 50, 60, 60);
+        jLabel1.setBounds(20, 610, 20, 16);
 
-        jLabel2.setText("1       2         3            4         5             6                 7                   8                   9                 10");
-        getContentPane().add(jLabel2);
-        jLabel2.setBounds(40, 19, 600, 16);
+        lblBoardSideA.setText("A");
+        getContentPane().add(lblBoardSideA);
+        lblBoardSideA.setBounds(20, 70, 20, 16);
 
-        jLabel3.setText("<html><p style='writing-mode: vertical-rl;'>A<br><br>B<br><br>C<br><br>D<br><br>E<br><br>F<br><br>G<br><br>H<br><br>I<br><br>J</p></html>");
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(22, 47, 12, 304);
+        lblBoardSideB.setText("B");
+        getContentPane().add(lblBoardSideB);
+        lblBoardSideB.setBounds(20, 130, 20, 16);
 
-        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jLabel4.setOpaque(true);
-        getContentPane().add(jLabel4);
-        jLabel4.setBounds(220, 50, 60, 60);
+        lblBoardSideC.setText("C");
+        getContentPane().add(lblBoardSideC);
+        lblBoardSideC.setBounds(20, 190, 20, 16);
 
-        jLabel5.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jLabel5.setOpaque(true);
-        getContentPane().add(jLabel5);
-        jLabel5.setBounds(100, 50, 60, 60);
+        lblBoardSideD.setText("D");
+        getContentPane().add(lblBoardSideD);
+        lblBoardSideD.setBounds(20, 250, 20, 16);
 
-        jLabel6.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jLabel6.setOpaque(true);
-        getContentPane().add(jLabel6);
-        jLabel6.setBounds(160, 50, 60, 60);
+        lblBoardSideE.setText("E");
+        getContentPane().add(lblBoardSideE);
+        lblBoardSideE.setBounds(20, 310, 20, 16);
+
+        lblBoardSideF.setText("F");
+        getContentPane().add(lblBoardSideF);
+        lblBoardSideF.setBounds(20, 370, 20, 16);
+
+        jLabel10.setText("G");
+        getContentPane().add(jLabel10);
+        jLabel10.setBounds(20, 430, 20, 16);
+
+        jLabel11.setText("H");
+        getContentPane().add(jLabel11);
+        jLabel11.setBounds(20, 490, 20, 16);
+
+        jLabel12.setText("I");
+        getContentPane().add(jLabel12);
+        jLabel12.setBounds(20, 550, 20, 16);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -112,10 +829,115 @@ public class Mar extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel lbl00;
+    private javax.swing.JLabel lbl01;
+    private javax.swing.JLabel lbl02;
+    private javax.swing.JLabel lbl03;
+    private javax.swing.JLabel lbl1;
+    private javax.swing.JLabel lbl10;
+    private javax.swing.JLabel lbl11;
+    private javax.swing.JLabel lbl12;
+    private javax.swing.JLabel lbl13;
+    private javax.swing.JLabel lbl14;
+    private javax.swing.JLabel lbl15;
+    private javax.swing.JLabel lbl16;
+    private javax.swing.JLabel lbl17;
+    private javax.swing.JLabel lbl18;
+    private javax.swing.JLabel lbl19;
+    private javax.swing.JLabel lbl2;
+    private javax.swing.JLabel lbl20;
+    private javax.swing.JLabel lbl21;
+    private javax.swing.JLabel lbl22;
+    private javax.swing.JLabel lbl23;
+    private javax.swing.JLabel lbl24;
+    private javax.swing.JLabel lbl25;
+    private javax.swing.JLabel lbl26;
+    private javax.swing.JLabel lbl27;
+    private javax.swing.JLabel lbl28;
+    private javax.swing.JLabel lbl29;
+    private javax.swing.JLabel lbl3;
+    private javax.swing.JLabel lbl30;
+    private javax.swing.JLabel lbl31;
+    private javax.swing.JLabel lbl32;
+    private javax.swing.JLabel lbl33;
+    private javax.swing.JLabel lbl34;
+    private javax.swing.JLabel lbl35;
+    private javax.swing.JLabel lbl36;
+    private javax.swing.JLabel lbl37;
+    private javax.swing.JLabel lbl38;
+    private javax.swing.JLabel lbl39;
+    private javax.swing.JLabel lbl4;
+    private javax.swing.JLabel lbl40;
+    private javax.swing.JLabel lbl41;
+    private javax.swing.JLabel lbl42;
+    private javax.swing.JLabel lbl43;
+    private javax.swing.JLabel lbl44;
+    private javax.swing.JLabel lbl45;
+    private javax.swing.JLabel lbl46;
+    private javax.swing.JLabel lbl47;
+    private javax.swing.JLabel lbl48;
+    private javax.swing.JLabel lbl49;
+    private javax.swing.JLabel lbl5;
+    private javax.swing.JLabel lbl50;
+    private javax.swing.JLabel lbl51;
+    private javax.swing.JLabel lbl52;
+    private javax.swing.JLabel lbl53;
+    private javax.swing.JLabel lbl54;
+    private javax.swing.JLabel lbl55;
+    private javax.swing.JLabel lbl56;
+    private javax.swing.JLabel lbl57;
+    private javax.swing.JLabel lbl58;
+    private javax.swing.JLabel lbl59;
+    private javax.swing.JLabel lbl6;
+    private javax.swing.JLabel lbl60;
+    private javax.swing.JLabel lbl61;
+    private javax.swing.JLabel lbl62;
+    private javax.swing.JLabel lbl63;
+    private javax.swing.JLabel lbl64;
+    private javax.swing.JLabel lbl65;
+    private javax.swing.JLabel lbl66;
+    private javax.swing.JLabel lbl67;
+    private javax.swing.JLabel lbl68;
+    private javax.swing.JLabel lbl69;
+    private javax.swing.JLabel lbl7;
+    private javax.swing.JLabel lbl70;
+    private javax.swing.JLabel lbl71;
+    private javax.swing.JLabel lbl72;
+    private javax.swing.JLabel lbl73;
+    private javax.swing.JLabel lbl74;
+    private javax.swing.JLabel lbl75;
+    private javax.swing.JLabel lbl76;
+    private javax.swing.JLabel lbl77;
+    private javax.swing.JLabel lbl78;
+    private javax.swing.JLabel lbl79;
+    private javax.swing.JLabel lbl8;
+    private javax.swing.JLabel lbl80;
+    private javax.swing.JLabel lbl81;
+    private javax.swing.JLabel lbl82;
+    private javax.swing.JLabel lbl83;
+    private javax.swing.JLabel lbl84;
+    private javax.swing.JLabel lbl85;
+    private javax.swing.JLabel lbl86;
+    private javax.swing.JLabel lbl87;
+    private javax.swing.JLabel lbl88;
+    private javax.swing.JLabel lbl89;
+    private javax.swing.JLabel lbl9;
+    private javax.swing.JLabel lbl90;
+    private javax.swing.JLabel lbl91;
+    private javax.swing.JLabel lbl92;
+    private javax.swing.JLabel lbl93;
+    private javax.swing.JLabel lbl94;
+    private javax.swing.JLabel lbl95;
+    private javax.swing.JLabel lbl96;
+    private javax.swing.JLabel lblBoardSideA;
+    private javax.swing.JLabel lblBoardSideB;
+    private javax.swing.JLabel lblBoardSideC;
+    private javax.swing.JLabel lblBoardSideD;
+    private javax.swing.JLabel lblBoardSideE;
+    private javax.swing.JLabel lblBoardSideF;
+    private javax.swing.JLabel lblBoardTopNumbers;
     // End of variables declaration//GEN-END:variables
 }
