@@ -734,7 +734,7 @@ public class Mar extends javax.swing.JFrame {
     @Override
     public void paint (Graphics g){
         BufferedImage bufferedImage;
-        File file = new File("G:\\Otros ordenadores\\Mi Ordenador\\Escuela\\Graficacion\\battleship\\battleship\\src\\assets\\radar.png");
+        File file = new File("C:\battleShip\radar.png");
         
     }
     
