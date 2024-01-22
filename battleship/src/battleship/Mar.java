@@ -673,6 +673,16 @@ public class Mar extends javax.swing.JFrame {
         });
     }
     
+<<<<<<< HEAD
+=======
+    @Override
+    public void paint (Graphics g){
+        BufferedImage bufferedImage;
+        File file = new File("C:\battleShip\radar.png");
+        
+    }
+    
+>>>>>>> c4b7f8482a55ed85238b5d01828b027711a44747
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
