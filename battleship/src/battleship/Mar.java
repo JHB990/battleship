@@ -1,3 +1,4 @@
+//prueba fer
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -1567,7 +1568,7 @@ public class Mar extends javax.swing.JFrame {
     @Override
     public void paint (Graphics g){
         BufferedImage bufferedImage;
-        File file = new File("C:\battleShip\radar.png");
+        File file = new File("C:\\battleShip\\radar.png");
         
     }
     
