@@ -28,7 +28,7 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-43,0,0,5,-126"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-1,0,0,5,-126"/>
   </AuxValues>
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
@@ -54,7 +54,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="40" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="40" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -64,7 +64,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="70" y="20" width="600" height="-1"/>
+          <AbsoluteConstraints x="70" y="80" width="600" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -87,7 +87,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="220" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="220" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -110,7 +110,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="100" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="100" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -133,7 +133,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="160" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="160" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -156,7 +156,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="280" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="280" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -179,7 +179,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="340" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="340" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -202,7 +202,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="400" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="400" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -225,7 +225,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="460" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="460" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -248,7 +248,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="520" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="520" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -271,7 +271,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="580" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -294,7 +294,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="40" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="40" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -317,7 +317,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="100" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="100" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -340,7 +340,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="160" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="160" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -363,7 +363,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="220" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="220" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -386,7 +386,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="280" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="280" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -409,7 +409,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="340" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="340" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -432,7 +432,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="400" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="400" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -455,7 +455,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="460" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="460" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -478,7 +478,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="520" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="520" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -501,7 +501,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="580" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -524,7 +524,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="40" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="40" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -547,7 +547,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="100" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="100" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -570,7 +570,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="160" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="160" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -593,7 +593,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="220" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="220" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -616,7 +616,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="280" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="280" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -639,7 +639,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="340" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="340" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -662,7 +662,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="400" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="400" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -685,7 +685,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="460" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="460" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -708,7 +708,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="520" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="520" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -731,7 +731,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="580" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -754,7 +754,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="40" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="40" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -777,7 +777,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="220" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="220" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -800,7 +800,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="100" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="100" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -823,7 +823,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="160" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="160" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -846,7 +846,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="280" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="280" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -869,7 +869,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="340" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="340" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -892,7 +892,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="400" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="400" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -915,7 +915,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="460" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="460" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -938,7 +938,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="520" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="520" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -961,7 +961,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="580" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -984,7 +984,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="40" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="40" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1007,7 +1007,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="100" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="100" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1030,7 +1030,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="160" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="160" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1053,7 +1053,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="220" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="220" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1076,7 +1076,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="280" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="280" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1099,7 +1099,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="340" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="340" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1122,7 +1122,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="400" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="400" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1145,7 +1145,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="460" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="460" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1168,7 +1168,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="520" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="520" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1191,7 +1191,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="580" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1214,7 +1214,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="40" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="40" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1237,7 +1237,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="100" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="100" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1260,7 +1260,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="160" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="160" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1283,7 +1283,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="220" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="220" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1306,7 +1306,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="280" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="280" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1329,7 +1329,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="340" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="340" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1352,7 +1352,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="400" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="400" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1375,7 +1375,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="460" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="460" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1398,7 +1398,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="520" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="520" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1421,7 +1421,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="580" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1444,7 +1444,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="40" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="40" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1467,7 +1467,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="220" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="220" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1490,7 +1490,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="100" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="100" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1513,7 +1513,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="160" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="160" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1536,7 +1536,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="280" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="280" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1559,7 +1559,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="340" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="340" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1582,7 +1582,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="400" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="400" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1605,7 +1605,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="460" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="460" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1628,7 +1628,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="520" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="520" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1651,7 +1651,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="580" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1674,7 +1674,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="40" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="40" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1697,7 +1697,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="100" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="100" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1720,7 +1720,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="160" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="160" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1743,7 +1743,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="220" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="220" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1766,7 +1766,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="280" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="280" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1789,7 +1789,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="340" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="340" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1812,7 +1812,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="400" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="400" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1835,7 +1835,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="460" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="460" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1858,7 +1858,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="520" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="520" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1881,7 +1881,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="580" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1904,7 +1904,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="40" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="40" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1927,7 +1927,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="100" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="100" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1950,7 +1950,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="160" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="160" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1973,7 +1973,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="220" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="220" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -1996,7 +1996,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="280" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="280" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2019,7 +2019,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="340" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="340" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2042,7 +2042,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="400" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="400" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2065,7 +2065,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="460" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="460" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2088,7 +2088,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="520" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="520" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2111,7 +2111,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="580" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2134,7 +2134,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="40" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="40" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2157,7 +2157,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="100" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="100" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2180,7 +2180,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="160" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="160" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2203,7 +2203,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="220" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="220" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2226,7 +2226,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="280" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="280" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2249,7 +2249,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="340" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="340" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2272,7 +2272,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="400" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="400" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2295,7 +2295,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="460" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="460" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2318,7 +2318,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="520" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="520" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2341,7 +2341,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="580" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2351,7 +2351,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="610" width="20" height="-1"/>
+          <AbsoluteConstraints x="20" y="670" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2361,7 +2361,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="70" width="20" height="-1"/>
+          <AbsoluteConstraints x="20" y="130" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2371,7 +2371,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="130" width="20" height="-1"/>
+          <AbsoluteConstraints x="20" y="190" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2381,7 +2381,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="190" width="20" height="-1"/>
+          <AbsoluteConstraints x="20" y="250" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2391,7 +2391,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="250" width="20" height="-1"/>
+          <AbsoluteConstraints x="20" y="310" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2401,7 +2401,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="310" width="20" height="-1"/>
+          <AbsoluteConstraints x="20" y="370" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2411,7 +2411,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="370" width="20" height="-1"/>
+          <AbsoluteConstraints x="20" y="430" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2421,7 +2421,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="430" width="20" height="-1"/>
+          <AbsoluteConstraints x="20" y="490" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2431,7 +2431,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="490" width="20" height="-1"/>
+          <AbsoluteConstraints x="20" y="550" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2441,7 +2441,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="550" width="20" height="-1"/>
+          <AbsoluteConstraints x="20" y="610" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2460,12 +2460,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="40" y="50" width="600" height="600"/>
+          <AbsoluteConstraints x="40" y="110" width="600" height="600"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRA1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2479,7 +2483,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="770" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="770" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -2489,12 +2493,16 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="800" y="20" width="600" height="-1"/>
+          <AbsoluteConstraints x="800" y="80" width="600" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRA4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="3"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2508,12 +2516,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="950" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="950" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRA2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="1"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2527,12 +2539,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="830" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="830" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRA3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="2"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2546,12 +2562,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="890" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="890" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRA5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="4"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2565,12 +2585,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1010" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="1010" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRA6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="5"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2584,12 +2608,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1070" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="1070" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRA7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="6"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2603,12 +2631,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1130" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="1130" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRA8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="7"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2622,12 +2654,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1190" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="1190" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRA9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="8"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2641,12 +2677,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1250" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="1250" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRA10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="9"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2660,12 +2700,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1310" y="50" width="60" height="60"/>
+          <AbsoluteConstraints x="1310" y="110" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRB1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="10"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2679,12 +2723,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="770" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="770" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRB2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="11"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2698,12 +2746,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="830" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="830" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRB3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="12"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2717,12 +2769,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="890" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="890" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRB4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="13"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2736,12 +2792,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="950" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="950" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblrB5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="14"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2755,12 +2815,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1010" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="1010" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRB6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="15"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2774,12 +2838,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1070" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="1070" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRB7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="16"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2793,12 +2861,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1130" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="1130" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRB8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="17"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2812,12 +2884,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1190" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="1190" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRB9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="18"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2831,12 +2907,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1250" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="1250" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRB10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="19"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2850,12 +2930,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1310" y="110" width="60" height="60"/>
+          <AbsoluteConstraints x="1310" y="170" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRC1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="20"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2869,12 +2953,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="770" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="770" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRC2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="21"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2888,12 +2976,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="830" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="830" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRC3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="22"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2907,12 +2999,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="890" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="890" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRC4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="23"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2926,12 +3022,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="950" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="950" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRC5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="24"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2945,12 +3045,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1010" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="1010" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRC6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="25"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2964,12 +3068,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1070" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="1070" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRC7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="26"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2983,12 +3091,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1130" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="1130" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRC8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="27"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3002,12 +3114,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1190" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="1190" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRC9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="28"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3021,12 +3137,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1250" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="1250" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRC10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="29"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3040,12 +3160,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1310" y="170" width="60" height="60"/>
+          <AbsoluteConstraints x="1310" y="230" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRD1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="30"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3059,12 +3183,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="770" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="770" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRD4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="33"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3078,12 +3206,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="950" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="950" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRD2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="31"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3097,12 +3229,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="830" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="830" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRD3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="32"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3116,12 +3252,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="890" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="890" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRD5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="34"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3135,12 +3275,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1010" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="1010" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRD6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="35"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3154,12 +3298,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1070" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="1070" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRD7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="36"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3173,12 +3321,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1130" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="1130" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRD8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="37"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3192,12 +3344,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1190" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="1190" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRD9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="38"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3211,12 +3367,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1250" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="1250" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRD10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="39"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3230,12 +3390,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1310" y="230" width="60" height="60"/>
+          <AbsoluteConstraints x="1310" y="290" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRE1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="40"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3249,12 +3413,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="770" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="770" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRE2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="41"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3268,12 +3436,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="830" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="830" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRE3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="42"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3287,12 +3459,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="890" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="890" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRE4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="43"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3306,12 +3482,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="950" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="950" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRE5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="44"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3325,12 +3505,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1010" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="1010" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRE6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="45"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3344,12 +3528,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1070" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="1070" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRE7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="46"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3363,12 +3551,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1130" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="1130" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRE8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="47"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3382,12 +3574,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1190" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="1190" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRE9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="48"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3401,12 +3597,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1250" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="1250" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRE10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="49"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3420,12 +3620,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1310" y="290" width="60" height="60"/>
+          <AbsoluteConstraints x="1310" y="350" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRF1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="50"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3439,12 +3643,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="770" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="770" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRF2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="51"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3458,12 +3666,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="830" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="830" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRF3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="52"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3477,12 +3689,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="890" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="890" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRF4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="53"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3496,12 +3712,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="950" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="950" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRF5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="54"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3515,12 +3735,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1010" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="1010" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRF6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="55"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3534,12 +3758,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1070" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="1070" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRF7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="56"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3553,12 +3781,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1130" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="1130" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRF8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="57"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3572,12 +3804,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1190" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="1190" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRF9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="58"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3591,12 +3827,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1250" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="1250" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRF10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="59"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3610,12 +3850,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1310" y="350" width="60" height="60"/>
+          <AbsoluteConstraints x="1310" y="410" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRG1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="60"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3629,12 +3873,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="770" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="770" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRG4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="63"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3648,12 +3896,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="950" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="950" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRG2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="61"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3667,12 +3919,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="830" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="830" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRG3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="62"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3686,12 +3942,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="890" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="890" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRG5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="64"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3705,12 +3965,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1010" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="1010" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRG6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="65"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3724,12 +3988,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1070" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="1070" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRG7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="66"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3743,12 +4011,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1130" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="1130" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRG8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="67"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3762,12 +4034,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1190" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="1190" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRG9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="68"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3781,12 +4057,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1250" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="1250" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRG10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="69"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3800,12 +4080,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1310" y="410" width="60" height="60"/>
+          <AbsoluteConstraints x="1310" y="470" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRH1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="70"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3819,12 +4103,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="770" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="770" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRH2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="71"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3838,12 +4126,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="830" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="830" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRH3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="72"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3857,12 +4149,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="890" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="890" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRH4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="73"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3876,12 +4172,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="950" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="950" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRH5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="74"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3895,12 +4195,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1010" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="1010" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRH6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="75"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3914,12 +4218,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1070" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="1070" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRH7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="76"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3933,12 +4241,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1130" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="1130" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRH8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="77"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3952,12 +4264,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1190" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="1190" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRH9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="78"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3971,12 +4287,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1250" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="1250" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRH10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="79"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -3990,12 +4310,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1310" y="470" width="60" height="60"/>
+          <AbsoluteConstraints x="1310" y="530" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRI1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="80"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4009,12 +4333,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="770" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="770" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRI2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="81"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4028,12 +4356,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="830" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="830" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRI3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="82"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4047,12 +4379,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="890" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="890" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRI4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="83"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4066,12 +4402,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="950" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="950" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRI5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="84"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4085,12 +4425,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1010" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="1010" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRI6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="85"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4104,12 +4448,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1070" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="1070" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRI7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="86"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4123,12 +4471,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1130" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="1130" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRI8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="87"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4142,12 +4494,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1190" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="1190" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRI9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="88"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4161,12 +4517,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1250" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="1250" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRI10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="89"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4180,12 +4540,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1310" y="530" width="60" height="60"/>
+          <AbsoluteConstraints x="1310" y="590" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRJ1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="90"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4199,12 +4563,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="770" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="770" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRJ2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="91"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4218,12 +4586,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="830" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="830" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRJ3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="92"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4237,12 +4609,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="890" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="890" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRJ4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="93"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4256,12 +4632,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="950" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="950" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRJ5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="94"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4275,12 +4655,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1010" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="1010" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRJ6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="95"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4294,12 +4678,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1070" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="1070" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRJ7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="96"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4313,12 +4701,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1130" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="1130" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRJ8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="97"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4332,12 +4724,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1190" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="1190" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRJ9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="98"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4351,12 +4747,16 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1250" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="1250" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="lblRJ10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="99"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -4370,7 +4770,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1310" y="590" width="60" height="60"/>
+          <AbsoluteConstraints x="1310" y="650" width="60" height="60"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -4380,7 +4780,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="750" y="610" width="20" height="-1"/>
+          <AbsoluteConstraints x="750" y="670" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -4390,7 +4790,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="750" y="70" width="20" height="-1"/>
+          <AbsoluteConstraints x="750" y="130" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -4400,7 +4800,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="750" y="130" width="20" height="-1"/>
+          <AbsoluteConstraints x="750" y="190" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -4410,7 +4810,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="750" y="190" width="20" height="-1"/>
+          <AbsoluteConstraints x="750" y="250" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -4420,7 +4820,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="750" y="250" width="20" height="-1"/>
+          <AbsoluteConstraints x="750" y="310" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -4430,7 +4830,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="750" y="310" width="20" height="-1"/>
+          <AbsoluteConstraints x="750" y="370" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -4440,7 +4840,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="750" y="370" width="20" height="-1"/>
+          <AbsoluteConstraints x="750" y="430" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -4450,7 +4850,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="750" y="430" width="20" height="-1"/>
+          <AbsoluteConstraints x="750" y="490" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -4460,7 +4860,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="750" y="490" width="20" height="-1"/>
+          <AbsoluteConstraints x="750" y="550" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -4470,7 +4870,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="750" y="550" width="20" height="-1"/>
+          <AbsoluteConstraints x="750" y="610" width="20" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -4479,6 +4879,9 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="33" green="99" red="0" type="rgb"/>
         </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
       <Events>
@@ -4486,7 +4889,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="770" y="50" width="600" height="600"/>
+          <AbsoluteConstraints x="770" y="110" width="600" height="600"/>
         </Constraint>
       </Constraints>
     </Component>
