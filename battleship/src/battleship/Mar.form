@@ -7,7 +7,7 @@
       <Rectangle value="[0, 0, 1500, 900]"/>
     </Property>
     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-      <Color id="Default Cursor"/>
+      <Color id="Cursor Por defecto"/>
     </Property>
     <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
       <Dimension value="[1500, 900]"/>
@@ -37,6 +37,10 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="lblSA1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -66,6 +70,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSA4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="3"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -85,6 +93,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSA2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="1"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -104,6 +116,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSA3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="2"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -123,6 +139,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSA5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="4"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -142,6 +162,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSA6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="5"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -161,6 +185,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSA7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="6"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -180,6 +208,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSA8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="7"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -199,6 +231,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSA9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="8"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -218,6 +254,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSA10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="9"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -237,6 +277,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSB1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="10"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -256,6 +300,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSB2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="11"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -275,6 +323,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSB3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="12"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -294,6 +346,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSB4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="13"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -313,6 +369,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSB5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="14"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -332,6 +392,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSB6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="15"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -351,6 +415,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSB7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="16"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -370,6 +438,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSB8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="17"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -389,6 +461,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSB9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="18"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -408,6 +484,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSB10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="19"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -427,6 +507,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSC1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="20"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -446,6 +530,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSC2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="21"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -465,6 +553,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSC3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="22"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -484,6 +576,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSC4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="23"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -503,6 +599,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSC5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="24"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -522,6 +622,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSC6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="25"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -541,6 +645,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSC7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="26"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -560,6 +668,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSC8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="27"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -579,6 +691,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSC9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="28"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -598,6 +714,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSC10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="29"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -617,6 +737,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSD1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="30"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -636,6 +760,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSD4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="33"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -655,6 +783,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSD2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="31"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -674,6 +806,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSD3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="32"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -693,6 +829,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSD5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="34"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -712,6 +852,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSD6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="35"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -731,6 +875,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSD7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="36"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -750,6 +898,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSD8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="37"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -769,6 +921,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSD9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="38"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -788,6 +944,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSD10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="39"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -807,6 +967,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSE1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="40"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -826,6 +990,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSE2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="41"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -845,6 +1013,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSE3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="42"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -864,6 +1036,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSE4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="43"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -883,6 +1059,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSE5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="44"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -902,6 +1082,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSE6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="45"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -921,6 +1105,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSE7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="46"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -940,6 +1128,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSE8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="47"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -959,6 +1151,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSE9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="48"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -978,6 +1174,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSE10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="49"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -997,6 +1197,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSF1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="50"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1016,6 +1220,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSF2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="51"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1035,6 +1243,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSF3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="52"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1054,6 +1266,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSF4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="53"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1073,6 +1289,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSF5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="54"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1092,6 +1312,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSF6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="55"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1111,6 +1335,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSF7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="56"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1130,6 +1358,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSF8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="57"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1149,6 +1381,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSF9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="58"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1168,6 +1404,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSF10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="59"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1187,6 +1427,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSG1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="60"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1206,6 +1450,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSG4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="63"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1225,6 +1473,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSG2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="61"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1244,6 +1496,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSG3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="62"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1263,6 +1519,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSG5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="64"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1282,6 +1542,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSG6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="65"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1301,6 +1565,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSG7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="66"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1320,6 +1588,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSG8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="67"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1339,6 +1611,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSG9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="68"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1358,6 +1634,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSG10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="69"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1377,6 +1657,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSH1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="70"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1396,6 +1680,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSH2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="71"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1415,6 +1703,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSH3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="72"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1434,6 +1726,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSH4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="73"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1453,6 +1749,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSH5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="74"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1472,6 +1772,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSH6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="75"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1491,6 +1795,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSH7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="76"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1510,6 +1818,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSH8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="77"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1529,6 +1841,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSH9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="78"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1548,6 +1864,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSH10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="79"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1567,6 +1887,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSI1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="80"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1586,6 +1910,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSI2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="81"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1605,6 +1933,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSI3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="82"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1624,6 +1956,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSI4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="83"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1643,6 +1979,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSI5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="84"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1662,6 +2002,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSI6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="85"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1681,6 +2025,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSI7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="86"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1700,6 +2048,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSI8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="87"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1719,6 +2071,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSI9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="88"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1738,6 +2094,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblIS10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="89"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1757,6 +2117,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSJ1">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="90"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1776,6 +2140,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSJ2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="91"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1795,6 +2163,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSJ3">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="92"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1814,6 +2186,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSJ4">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="93"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1833,6 +2209,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSJ5">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="94"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1852,6 +2232,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSJ6">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="95"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1871,6 +2255,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSJ7">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="96"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1890,6 +2278,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSJ8">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="97"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1909,6 +2301,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSJ9">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="98"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -1928,6 +2324,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblSJ10">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="99"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder>
@@ -2049,6 +2449,9 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code=" new Color(0f,0f,0f,0f)" type="code"/>
         </Property>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
