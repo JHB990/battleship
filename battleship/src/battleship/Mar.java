@@ -1,3 +1,4 @@
+//prueba fer
 /*
 prueba hans
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -1564,9 +1565,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
     }
-    
-
-    
+   
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
