@@ -15,9 +15,6 @@ public class Battleship {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //este es un nuevo comentario
-        // sobreescribi lo de FER
-        //Something new!!
     }
     //Esto es un comentario hecho por Jhos
 }
