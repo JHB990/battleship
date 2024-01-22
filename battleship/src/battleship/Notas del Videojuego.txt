@@ -1,2 +1,8 @@
-Notas del videojuego
-Añadi a Jhosvan
+VideoGame Notes
+
+On the UDV (User Display View) it will show the two panels.
+
+The left panel will show the Sea and the coordinates vertical A - J and horizontal 1 - 10
+
+The Right panel will show the Radar and the coordinates vertical A - J and horizontal 1 - 10
+
