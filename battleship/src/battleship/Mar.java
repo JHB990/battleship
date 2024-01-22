@@ -288,11 +288,11 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSA1);
-        lblSA1.setBounds(40, 50, 60, 60);
+        lblSA1.setBounds(40, 110, 60, 60);
 
         lblBoardTopNumbers.setText("1                  2                 3                  4                   5                6                   7                   8                 9                 10");
         getContentPane().add(lblBoardTopNumbers);
-        lblBoardTopNumbers.setBounds(70, 20, 600, 16);
+        lblBoardTopNumbers.setBounds(70, 80, 600, 16);
 
         lblSA4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSA4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -301,7 +301,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSA4);
-        lblSA4.setBounds(220, 50, 60, 60);
+        lblSA4.setBounds(220, 110, 60, 60);
 
         lblSA2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSA2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -310,7 +310,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSA2);
-        lblSA2.setBounds(100, 50, 60, 60);
+        lblSA2.setBounds(100, 110, 60, 60);
 
         lblSA3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSA3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -319,7 +319,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSA3);
-        lblSA3.setBounds(160, 50, 60, 60);
+        lblSA3.setBounds(160, 110, 60, 60);
 
         lblSA5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSA5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -328,7 +328,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSA5);
-        lblSA5.setBounds(280, 50, 60, 60);
+        lblSA5.setBounds(280, 110, 60, 60);
 
         lblSA6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSA6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -337,7 +337,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSA6);
-        lblSA6.setBounds(340, 50, 60, 60);
+        lblSA6.setBounds(340, 110, 60, 60);
 
         lblSA7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSA7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -346,7 +346,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSA7);
-        lblSA7.setBounds(400, 50, 60, 60);
+        lblSA7.setBounds(400, 110, 60, 60);
 
         lblSA8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSA8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -355,7 +355,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSA8);
-        lblSA8.setBounds(460, 50, 60, 60);
+        lblSA8.setBounds(460, 110, 60, 60);
 
         lblSA9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSA9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -364,7 +364,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSA9);
-        lblSA9.setBounds(520, 50, 60, 60);
+        lblSA9.setBounds(520, 110, 60, 60);
 
         lblSA10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSA10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -373,7 +373,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSA10);
-        lblSA10.setBounds(580, 50, 60, 60);
+        lblSA10.setBounds(580, 110, 60, 60);
 
         lblSB1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSB1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -382,7 +382,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSB1);
-        lblSB1.setBounds(40, 110, 60, 60);
+        lblSB1.setBounds(40, 170, 60, 60);
 
         lblSB2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSB2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -391,7 +391,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSB2);
-        lblSB2.setBounds(100, 110, 60, 60);
+        lblSB2.setBounds(100, 170, 60, 60);
 
         lblSB3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSB3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -400,7 +400,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSB3);
-        lblSB3.setBounds(160, 110, 60, 60);
+        lblSB3.setBounds(160, 170, 60, 60);
 
         lblSB4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSB4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -409,7 +409,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSB4);
-        lblSB4.setBounds(220, 110, 60, 60);
+        lblSB4.setBounds(220, 170, 60, 60);
 
         lblSB5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSB5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -418,7 +418,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSB5);
-        lblSB5.setBounds(280, 110, 60, 60);
+        lblSB5.setBounds(280, 170, 60, 60);
 
         lblSB6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSB6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -427,7 +427,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSB6);
-        lblSB6.setBounds(340, 110, 60, 60);
+        lblSB6.setBounds(340, 170, 60, 60);
 
         lblSB7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSB7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -436,7 +436,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSB7);
-        lblSB7.setBounds(400, 110, 60, 60);
+        lblSB7.setBounds(400, 170, 60, 60);
 
         lblSB8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSB8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -445,7 +445,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSB8);
-        lblSB8.setBounds(460, 110, 60, 60);
+        lblSB8.setBounds(460, 170, 60, 60);
 
         lblSB9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSB9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -454,7 +454,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSB9);
-        lblSB9.setBounds(520, 110, 60, 60);
+        lblSB9.setBounds(520, 170, 60, 60);
 
         lblSB10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSB10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -463,7 +463,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSB10);
-        lblSB10.setBounds(580, 110, 60, 60);
+        lblSB10.setBounds(580, 170, 60, 60);
 
         lblSC1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSC1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -472,7 +472,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSC1);
-        lblSC1.setBounds(40, 170, 60, 60);
+        lblSC1.setBounds(40, 230, 60, 60);
 
         lblSC2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSC2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -481,7 +481,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSC2);
-        lblSC2.setBounds(100, 170, 60, 60);
+        lblSC2.setBounds(100, 230, 60, 60);
 
         lblSC3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSC3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -490,7 +490,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSC3);
-        lblSC3.setBounds(160, 170, 60, 60);
+        lblSC3.setBounds(160, 230, 60, 60);
 
         lblSC4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSC4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -499,7 +499,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSC4);
-        lblSC4.setBounds(220, 170, 60, 60);
+        lblSC4.setBounds(220, 230, 60, 60);
 
         lblSC5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSC5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -508,7 +508,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSC5);
-        lblSC5.setBounds(280, 170, 60, 60);
+        lblSC5.setBounds(280, 230, 60, 60);
 
         lblSC6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSC6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -517,7 +517,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSC6);
-        lblSC6.setBounds(340, 170, 60, 60);
+        lblSC6.setBounds(340, 230, 60, 60);
 
         lblSC7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSC7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -526,7 +526,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSC7);
-        lblSC7.setBounds(400, 170, 60, 60);
+        lblSC7.setBounds(400, 230, 60, 60);
 
         lblSC8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSC8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -535,7 +535,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSC8);
-        lblSC8.setBounds(460, 170, 60, 60);
+        lblSC8.setBounds(460, 230, 60, 60);
 
         lblSC9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSC9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -544,7 +544,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSC9);
-        lblSC9.setBounds(520, 170, 60, 60);
+        lblSC9.setBounds(520, 230, 60, 60);
 
         lblSC10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSC10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -553,7 +553,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSC10);
-        lblSC10.setBounds(580, 170, 60, 60);
+        lblSC10.setBounds(580, 230, 60, 60);
 
         lblSD1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSD1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -562,7 +562,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSD1);
-        lblSD1.setBounds(40, 230, 60, 60);
+        lblSD1.setBounds(40, 290, 60, 60);
 
         lblSD4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSD4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -571,7 +571,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSD4);
-        lblSD4.setBounds(220, 230, 60, 60);
+        lblSD4.setBounds(220, 290, 60, 60);
 
         lblSD2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSD2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -580,7 +580,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSD2);
-        lblSD2.setBounds(100, 230, 60, 60);
+        lblSD2.setBounds(100, 290, 60, 60);
 
         lblSD3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSD3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -589,7 +589,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSD3);
-        lblSD3.setBounds(160, 230, 60, 60);
+        lblSD3.setBounds(160, 290, 60, 60);
 
         lblSD5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSD5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -598,7 +598,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSD5);
-        lblSD5.setBounds(280, 230, 60, 60);
+        lblSD5.setBounds(280, 290, 60, 60);
 
         lblSD6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSD6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -607,7 +607,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSD6);
-        lblSD6.setBounds(340, 230, 60, 60);
+        lblSD6.setBounds(340, 290, 60, 60);
 
         lblSD7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSD7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -616,7 +616,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSD7);
-        lblSD7.setBounds(400, 230, 60, 60);
+        lblSD7.setBounds(400, 290, 60, 60);
 
         lblSD8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSD8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -625,7 +625,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSD8);
-        lblSD8.setBounds(460, 230, 60, 60);
+        lblSD8.setBounds(460, 290, 60, 60);
 
         lblSD9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSD9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -634,7 +634,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSD9);
-        lblSD9.setBounds(520, 230, 60, 60);
+        lblSD9.setBounds(520, 290, 60, 60);
 
         lblSD10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSD10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -643,7 +643,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSD10);
-        lblSD10.setBounds(580, 230, 60, 60);
+        lblSD10.setBounds(580, 290, 60, 60);
 
         lblSE1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSE1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -652,7 +652,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSE1);
-        lblSE1.setBounds(40, 290, 60, 60);
+        lblSE1.setBounds(40, 350, 60, 60);
 
         lblSE2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSE2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -661,7 +661,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSE2);
-        lblSE2.setBounds(100, 290, 60, 60);
+        lblSE2.setBounds(100, 350, 60, 60);
 
         lblSE3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSE3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -670,7 +670,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSE3);
-        lblSE3.setBounds(160, 290, 60, 60);
+        lblSE3.setBounds(160, 350, 60, 60);
 
         lblSE4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSE4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -679,7 +679,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSE4);
-        lblSE4.setBounds(220, 290, 60, 60);
+        lblSE4.setBounds(220, 350, 60, 60);
 
         lblSE5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSE5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -688,7 +688,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSE5);
-        lblSE5.setBounds(280, 290, 60, 60);
+        lblSE5.setBounds(280, 350, 60, 60);
 
         lblSE6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSE6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -697,7 +697,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSE6);
-        lblSE6.setBounds(340, 290, 60, 60);
+        lblSE6.setBounds(340, 350, 60, 60);
 
         lblSE7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSE7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -706,7 +706,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSE7);
-        lblSE7.setBounds(400, 290, 60, 60);
+        lblSE7.setBounds(400, 350, 60, 60);
 
         lblSE8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSE8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -715,7 +715,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSE8);
-        lblSE8.setBounds(460, 290, 60, 60);
+        lblSE8.setBounds(460, 350, 60, 60);
 
         lblSE9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSE9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -724,7 +724,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSE9);
-        lblSE9.setBounds(520, 290, 60, 60);
+        lblSE9.setBounds(520, 350, 60, 60);
 
         lblSE10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSE10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -733,7 +733,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSE10);
-        lblSE10.setBounds(580, 290, 60, 60);
+        lblSE10.setBounds(580, 350, 60, 60);
 
         lblSF1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSF1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -742,7 +742,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSF1);
-        lblSF1.setBounds(40, 350, 60, 60);
+        lblSF1.setBounds(40, 410, 60, 60);
 
         lblSF2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSF2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -751,7 +751,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSF2);
-        lblSF2.setBounds(100, 350, 60, 60);
+        lblSF2.setBounds(100, 410, 60, 60);
 
         lblSF3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSF3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -760,7 +760,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSF3);
-        lblSF3.setBounds(160, 350, 60, 60);
+        lblSF3.setBounds(160, 410, 60, 60);
 
         lblSF4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSF4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -769,7 +769,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSF4);
-        lblSF4.setBounds(220, 350, 60, 60);
+        lblSF4.setBounds(220, 410, 60, 60);
 
         lblSF5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSF5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -778,7 +778,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSF5);
-        lblSF5.setBounds(280, 350, 60, 60);
+        lblSF5.setBounds(280, 410, 60, 60);
 
         lblSF6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSF6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -787,7 +787,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSF6);
-        lblSF6.setBounds(340, 350, 60, 60);
+        lblSF6.setBounds(340, 410, 60, 60);
 
         lblSF7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSF7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -796,7 +796,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSF7);
-        lblSF7.setBounds(400, 350, 60, 60);
+        lblSF7.setBounds(400, 410, 60, 60);
 
         lblSF8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSF8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -805,7 +805,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSF8);
-        lblSF8.setBounds(460, 350, 60, 60);
+        lblSF8.setBounds(460, 410, 60, 60);
 
         lblSF9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSF9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -814,7 +814,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSF9);
-        lblSF9.setBounds(520, 350, 60, 60);
+        lblSF9.setBounds(520, 410, 60, 60);
 
         lblSF10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSF10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -823,7 +823,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSF10);
-        lblSF10.setBounds(580, 350, 60, 60);
+        lblSF10.setBounds(580, 410, 60, 60);
 
         lblSG1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSG1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -832,7 +832,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSG1);
-        lblSG1.setBounds(40, 410, 60, 60);
+        lblSG1.setBounds(40, 470, 60, 60);
 
         lblSG4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSG4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -841,7 +841,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSG4);
-        lblSG4.setBounds(220, 410, 60, 60);
+        lblSG4.setBounds(220, 470, 60, 60);
 
         lblSG2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSG2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -850,7 +850,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSG2);
-        lblSG2.setBounds(100, 410, 60, 60);
+        lblSG2.setBounds(100, 470, 60, 60);
 
         lblSG3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSG3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -859,7 +859,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSG3);
-        lblSG3.setBounds(160, 410, 60, 60);
+        lblSG3.setBounds(160, 470, 60, 60);
 
         lblSG5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSG5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -868,7 +868,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSG5);
-        lblSG5.setBounds(280, 410, 60, 60);
+        lblSG5.setBounds(280, 470, 60, 60);
 
         lblSG6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSG6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -877,7 +877,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSG6);
-        lblSG6.setBounds(340, 410, 60, 60);
+        lblSG6.setBounds(340, 470, 60, 60);
 
         lblSG7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSG7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -886,7 +886,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSG7);
-        lblSG7.setBounds(400, 410, 60, 60);
+        lblSG7.setBounds(400, 470, 60, 60);
 
         lblSG8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSG8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -895,7 +895,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSG8);
-        lblSG8.setBounds(460, 410, 60, 60);
+        lblSG8.setBounds(460, 470, 60, 60);
 
         lblSG9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSG9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -904,7 +904,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSG9);
-        lblSG9.setBounds(520, 410, 60, 60);
+        lblSG9.setBounds(520, 470, 60, 60);
 
         lblSG10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSG10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -913,7 +913,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSG10);
-        lblSG10.setBounds(580, 410, 60, 60);
+        lblSG10.setBounds(580, 470, 60, 60);
 
         lblSH1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSH1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -922,7 +922,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSH1);
-        lblSH1.setBounds(40, 470, 60, 60);
+        lblSH1.setBounds(40, 530, 60, 60);
 
         lblSH2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSH2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -931,7 +931,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSH2);
-        lblSH2.setBounds(100, 470, 60, 60);
+        lblSH2.setBounds(100, 530, 60, 60);
 
         lblSH3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSH3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -940,7 +940,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSH3);
-        lblSH3.setBounds(160, 470, 60, 60);
+        lblSH3.setBounds(160, 530, 60, 60);
 
         lblSH4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSH4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -949,7 +949,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSH4);
-        lblSH4.setBounds(220, 470, 60, 60);
+        lblSH4.setBounds(220, 530, 60, 60);
 
         lblSH5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSH5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -958,7 +958,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSH5);
-        lblSH5.setBounds(280, 470, 60, 60);
+        lblSH5.setBounds(280, 530, 60, 60);
 
         lblSH6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSH6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -967,7 +967,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSH6);
-        lblSH6.setBounds(340, 470, 60, 60);
+        lblSH6.setBounds(340, 530, 60, 60);
 
         lblSH7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSH7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -976,7 +976,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSH7);
-        lblSH7.setBounds(400, 470, 60, 60);
+        lblSH7.setBounds(400, 530, 60, 60);
 
         lblSH8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSH8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -985,7 +985,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSH8);
-        lblSH8.setBounds(460, 470, 60, 60);
+        lblSH8.setBounds(460, 530, 60, 60);
 
         lblSH9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSH9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -994,7 +994,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSH9);
-        lblSH9.setBounds(520, 470, 60, 60);
+        lblSH9.setBounds(520, 530, 60, 60);
 
         lblSH10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSH10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1003,7 +1003,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSH10);
-        lblSH10.setBounds(580, 470, 60, 60);
+        lblSH10.setBounds(580, 530, 60, 60);
 
         lblSI1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSI1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1012,7 +1012,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSI1);
-        lblSI1.setBounds(40, 530, 60, 60);
+        lblSI1.setBounds(40, 590, 60, 60);
 
         lblSI2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSI2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1021,7 +1021,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSI2);
-        lblSI2.setBounds(100, 530, 60, 60);
+        lblSI2.setBounds(100, 590, 60, 60);
 
         lblSI3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSI3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1030,7 +1030,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSI3);
-        lblSI3.setBounds(160, 530, 60, 60);
+        lblSI3.setBounds(160, 590, 60, 60);
 
         lblSI4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSI4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1039,7 +1039,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSI4);
-        lblSI4.setBounds(220, 530, 60, 60);
+        lblSI4.setBounds(220, 590, 60, 60);
 
         lblSI5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSI5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1048,7 +1048,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSI5);
-        lblSI5.setBounds(280, 530, 60, 60);
+        lblSI5.setBounds(280, 590, 60, 60);
 
         lblSI6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSI6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1057,7 +1057,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSI6);
-        lblSI6.setBounds(340, 530, 60, 60);
+        lblSI6.setBounds(340, 590, 60, 60);
 
         lblSI7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSI7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1066,7 +1066,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSI7);
-        lblSI7.setBounds(400, 530, 60, 60);
+        lblSI7.setBounds(400, 590, 60, 60);
 
         lblSI8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSI8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1075,7 +1075,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSI8);
-        lblSI8.setBounds(460, 530, 60, 60);
+        lblSI8.setBounds(460, 590, 60, 60);
 
         lblSI9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSI9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1084,7 +1084,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSI9);
-        lblSI9.setBounds(520, 530, 60, 60);
+        lblSI9.setBounds(520, 590, 60, 60);
 
         lblIS10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblIS10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1093,7 +1093,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblIS10);
-        lblIS10.setBounds(580, 530, 60, 60);
+        lblIS10.setBounds(580, 590, 60, 60);
 
         lblSJ1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSJ1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1102,7 +1102,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSJ1);
-        lblSJ1.setBounds(40, 590, 60, 60);
+        lblSJ1.setBounds(40, 650, 60, 60);
 
         lblSJ2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSJ2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1111,7 +1111,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSJ2);
-        lblSJ2.setBounds(100, 590, 60, 60);
+        lblSJ2.setBounds(100, 650, 60, 60);
 
         lblSJ3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSJ3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1120,7 +1120,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSJ3);
-        lblSJ3.setBounds(160, 590, 60, 60);
+        lblSJ3.setBounds(160, 650, 60, 60);
 
         lblSJ4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSJ4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1129,7 +1129,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSJ4);
-        lblSJ4.setBounds(220, 590, 60, 60);
+        lblSJ4.setBounds(220, 650, 60, 60);
 
         lblSJ5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSJ5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1138,7 +1138,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSJ5);
-        lblSJ5.setBounds(280, 590, 60, 60);
+        lblSJ5.setBounds(280, 650, 60, 60);
 
         lblSJ6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSJ6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1147,7 +1147,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSJ6);
-        lblSJ6.setBounds(340, 590, 60, 60);
+        lblSJ6.setBounds(340, 650, 60, 60);
 
         lblSJ7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSJ7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1156,7 +1156,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSJ7);
-        lblSJ7.setBounds(400, 590, 60, 60);
+        lblSJ7.setBounds(400, 650, 60, 60);
 
         lblSJ8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSJ8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1165,7 +1165,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSJ8);
-        lblSJ8.setBounds(460, 590, 60, 60);
+        lblSJ8.setBounds(460, 650, 60, 60);
 
         lblSJ9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSJ9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1174,7 +1174,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSJ9);
-        lblSJ9.setBounds(520, 590, 60, 60);
+        lblSJ9.setBounds(520, 650, 60, 60);
 
         lblSJ10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblSJ10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1183,47 +1183,47 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSJ10);
-        lblSJ10.setBounds(580, 590, 60, 60);
+        lblSJ10.setBounds(580, 650, 60, 60);
 
         jLabel1.setText("J");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(20, 610, 20, 16);
+        jLabel1.setBounds(20, 670, 20, 16);
 
         lblBoardSideA.setText("A");
         getContentPane().add(lblBoardSideA);
-        lblBoardSideA.setBounds(20, 70, 20, 16);
+        lblBoardSideA.setBounds(20, 130, 20, 16);
 
         lblBoardSideB.setText("B");
         getContentPane().add(lblBoardSideB);
-        lblBoardSideB.setBounds(20, 130, 20, 16);
+        lblBoardSideB.setBounds(20, 190, 20, 16);
 
         lblBoardSideC.setText("C");
         getContentPane().add(lblBoardSideC);
-        lblBoardSideC.setBounds(20, 190, 20, 16);
+        lblBoardSideC.setBounds(20, 250, 20, 16);
 
         lblBoardSideD.setText("D");
         getContentPane().add(lblBoardSideD);
-        lblBoardSideD.setBounds(20, 250, 20, 16);
+        lblBoardSideD.setBounds(20, 310, 20, 16);
 
         lblBoardSideE.setText("E");
         getContentPane().add(lblBoardSideE);
-        lblBoardSideE.setBounds(20, 310, 20, 16);
+        lblBoardSideE.setBounds(20, 370, 20, 16);
 
         lblBoardSideF.setText("F");
         getContentPane().add(lblBoardSideF);
-        lblBoardSideF.setBounds(20, 370, 20, 16);
+        lblBoardSideF.setBounds(20, 430, 20, 16);
 
         jLabel10.setText("G");
         getContentPane().add(jLabel10);
-        jLabel10.setBounds(20, 430, 20, 16);
+        jLabel10.setBounds(20, 490, 20, 16);
 
         jLabel11.setText("H");
         getContentPane().add(jLabel11);
-        jLabel11.setBounds(20, 490, 20, 16);
+        jLabel11.setBounds(20, 550, 20, 16);
 
         jLabel12.setText("I");
         getContentPane().add(jLabel12);
-        jLabel12.setBounds(20, 550, 20, 16);
+        jLabel12.setBounds(20, 610, 20, 16);
 
         lblSeaBackground.setBackground(new java.awt.Color(0, 153, 255));
         lblSeaBackground.setOpaque(true);
@@ -1233,8 +1233,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblSeaBackground);
-        lblSeaBackground.setBounds(40, 50, 600, 600);
+        lblSeaBackground.setBounds(40, 110, 600, 600);
 
+        lblRA1.setForeground(new Color(0f,0f,0f,0f));
+        lblRA1.setText("0");
         lblRA1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRA1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1242,12 +1244,14 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRA1);
-        lblRA1.setBounds(770, 50, 60, 60);
+        lblRA1.setBounds(770, 110, 60, 60);
 
         lblBoardTopNumbers1.setText("1                  2                 3                  4                   5                6                   7                   8                 9                 10");
         getContentPane().add(lblBoardTopNumbers1);
-        lblBoardTopNumbers1.setBounds(800, 20, 600, 16);
+        lblBoardTopNumbers1.setBounds(800, 80, 600, 16);
 
+        lblRA4.setForeground(new Color(0f,0f,0f,0f));
+        lblRA4.setText("3");
         lblRA4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRA4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1255,8 +1259,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRA4);
-        lblRA4.setBounds(950, 50, 60, 60);
+        lblRA4.setBounds(950, 110, 60, 60);
 
+        lblRA2.setForeground(new Color(0f,0f,0f,0f));
+        lblRA2.setText("1");
         lblRA2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRA2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1264,8 +1270,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRA2);
-        lblRA2.setBounds(830, 50, 60, 60);
+        lblRA2.setBounds(830, 110, 60, 60);
 
+        lblRA3.setForeground(new Color(0f,0f,0f,0f));
+        lblRA3.setText("2");
         lblRA3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRA3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1273,8 +1281,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRA3);
-        lblRA3.setBounds(890, 50, 60, 60);
+        lblRA3.setBounds(890, 110, 60, 60);
 
+        lblRA5.setForeground(new Color(0f,0f,0f,0f));
+        lblRA5.setText("4");
         lblRA5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRA5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1282,8 +1292,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRA5);
-        lblRA5.setBounds(1010, 50, 60, 60);
+        lblRA5.setBounds(1010, 110, 60, 60);
 
+        lblRA6.setForeground(new Color(0f,0f,0f,0f));
+        lblRA6.setText("5");
         lblRA6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRA6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1291,8 +1303,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRA6);
-        lblRA6.setBounds(1070, 50, 60, 60);
+        lblRA6.setBounds(1070, 110, 60, 60);
 
+        lblRA7.setForeground(new Color(0f,0f,0f,0f));
+        lblRA7.setText("6");
         lblRA7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRA7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1300,8 +1314,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRA7);
-        lblRA7.setBounds(1130, 50, 60, 60);
+        lblRA7.setBounds(1130, 110, 60, 60);
 
+        lblRA8.setForeground(new Color(0f,0f,0f,0f));
+        lblRA8.setText("7");
         lblRA8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRA8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1309,8 +1325,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRA8);
-        lblRA8.setBounds(1190, 50, 60, 60);
+        lblRA8.setBounds(1190, 110, 60, 60);
 
+        lblRA9.setForeground(new Color(0f,0f,0f,0f));
+        lblRA9.setText("8");
         lblRA9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRA9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1318,8 +1336,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRA9);
-        lblRA9.setBounds(1250, 50, 60, 60);
+        lblRA9.setBounds(1250, 110, 60, 60);
 
+        lblRA10.setForeground(new Color(0f,0f,0f,0f));
+        lblRA10.setText("9");
         lblRA10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRA10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1327,8 +1347,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRA10);
-        lblRA10.setBounds(1310, 50, 60, 60);
+        lblRA10.setBounds(1310, 110, 60, 60);
 
+        lblRB1.setForeground(new Color(0f,0f,0f,0f));
+        lblRB1.setText("10");
         lblRB1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRB1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1336,8 +1358,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRB1);
-        lblRB1.setBounds(770, 110, 60, 60);
+        lblRB1.setBounds(770, 170, 60, 60);
 
+        lblRB2.setForeground(new Color(0f,0f,0f,0f));
+        lblRB2.setText("11");
         lblRB2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRB2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1345,8 +1369,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRB2);
-        lblRB2.setBounds(830, 110, 60, 60);
+        lblRB2.setBounds(830, 170, 60, 60);
 
+        lblRB3.setForeground(new Color(0f,0f,0f,0f));
+        lblRB3.setText("12");
         lblRB3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRB3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1354,8 +1380,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRB3);
-        lblRB3.setBounds(890, 110, 60, 60);
+        lblRB3.setBounds(890, 170, 60, 60);
 
+        lblRB4.setForeground(new Color(0f,0f,0f,0f));
+        lblRB4.setText("13");
         lblRB4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRB4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1363,8 +1391,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRB4);
-        lblRB4.setBounds(950, 110, 60, 60);
+        lblRB4.setBounds(950, 170, 60, 60);
 
+        lblrB5.setForeground(new Color(0f,0f,0f,0f));
+        lblrB5.setText("14");
         lblrB5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblrB5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1372,8 +1402,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblrB5);
-        lblrB5.setBounds(1010, 110, 60, 60);
+        lblrB5.setBounds(1010, 170, 60, 60);
 
+        lblRB6.setForeground(new Color(0f,0f,0f,0f));
+        lblRB6.setText("15");
         lblRB6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRB6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1381,8 +1413,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRB6);
-        lblRB6.setBounds(1070, 110, 60, 60);
+        lblRB6.setBounds(1070, 170, 60, 60);
 
+        lblRB7.setForeground(new Color(0f,0f,0f,0f));
+        lblRB7.setText("16");
         lblRB7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRB7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1390,8 +1424,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRB7);
-        lblRB7.setBounds(1130, 110, 60, 60);
+        lblRB7.setBounds(1130, 170, 60, 60);
 
+        lblRB8.setForeground(new Color(0f,0f,0f,0f));
+        lblRB8.setText("17");
         lblRB8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRB8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1399,8 +1435,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRB8);
-        lblRB8.setBounds(1190, 110, 60, 60);
+        lblRB8.setBounds(1190, 170, 60, 60);
 
+        lblRB9.setForeground(new Color(0f,0f,0f,0f));
+        lblRB9.setText("18");
         lblRB9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRB9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1408,8 +1446,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRB9);
-        lblRB9.setBounds(1250, 110, 60, 60);
+        lblRB9.setBounds(1250, 170, 60, 60);
 
+        lblRB10.setForeground(new Color(0f,0f,0f,0f));
+        lblRB10.setText("19");
         lblRB10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRB10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1417,8 +1457,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRB10);
-        lblRB10.setBounds(1310, 110, 60, 60);
+        lblRB10.setBounds(1310, 170, 60, 60);
 
+        lblRC1.setForeground(new Color(0f,0f,0f,0f));
+        lblRC1.setText("20");
         lblRC1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRC1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1426,8 +1468,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRC1);
-        lblRC1.setBounds(770, 170, 60, 60);
+        lblRC1.setBounds(770, 230, 60, 60);
 
+        lblRC2.setForeground(new Color(0f,0f,0f,0f));
+        lblRC2.setText("21");
         lblRC2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRC2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1435,8 +1479,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRC2);
-        lblRC2.setBounds(830, 170, 60, 60);
+        lblRC2.setBounds(830, 230, 60, 60);
 
+        lblRC3.setForeground(new Color(0f,0f,0f,0f));
+        lblRC3.setText("22");
         lblRC3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRC3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1444,8 +1490,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRC3);
-        lblRC3.setBounds(890, 170, 60, 60);
+        lblRC3.setBounds(890, 230, 60, 60);
 
+        lblRC4.setForeground(new Color(0f,0f,0f,0f));
+        lblRC4.setText("23");
         lblRC4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRC4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1453,8 +1501,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRC4);
-        lblRC4.setBounds(950, 170, 60, 60);
+        lblRC4.setBounds(950, 230, 60, 60);
 
+        lblRC5.setForeground(new Color(0f,0f,0f,0f));
+        lblRC5.setText("24");
         lblRC5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRC5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1462,8 +1512,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRC5);
-        lblRC5.setBounds(1010, 170, 60, 60);
+        lblRC5.setBounds(1010, 230, 60, 60);
 
+        lblRC6.setForeground(new Color(0f,0f,0f,0f));
+        lblRC6.setText("25");
         lblRC6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRC6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1471,8 +1523,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRC6);
-        lblRC6.setBounds(1070, 170, 60, 60);
+        lblRC6.setBounds(1070, 230, 60, 60);
 
+        lblRC7.setForeground(new Color(0f,0f,0f,0f));
+        lblRC7.setText("26");
         lblRC7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRC7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1480,8 +1534,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRC7);
-        lblRC7.setBounds(1130, 170, 60, 60);
+        lblRC7.setBounds(1130, 230, 60, 60);
 
+        lblRC8.setForeground(new Color(0f,0f,0f,0f));
+        lblRC8.setText("27");
         lblRC8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRC8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1489,8 +1545,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRC8);
-        lblRC8.setBounds(1190, 170, 60, 60);
+        lblRC8.setBounds(1190, 230, 60, 60);
 
+        lblRC9.setForeground(new Color(0f,0f,0f,0f));
+        lblRC9.setText("28");
         lblRC9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRC9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1498,8 +1556,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRC9);
-        lblRC9.setBounds(1250, 170, 60, 60);
+        lblRC9.setBounds(1250, 230, 60, 60);
 
+        lblRC10.setForeground(new Color(0f,0f,0f,0f));
+        lblRC10.setText("29");
         lblRC10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRC10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1507,8 +1567,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRC10);
-        lblRC10.setBounds(1310, 170, 60, 60);
+        lblRC10.setBounds(1310, 230, 60, 60);
 
+        lblRD1.setForeground(new Color(0f,0f,0f,0f));
+        lblRD1.setText("30");
         lblRD1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRD1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1516,8 +1578,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRD1);
-        lblRD1.setBounds(770, 230, 60, 60);
+        lblRD1.setBounds(770, 290, 60, 60);
 
+        lblRD4.setForeground(new Color(0f,0f,0f,0f));
+        lblRD4.setText("33");
         lblRD4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRD4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1525,8 +1589,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRD4);
-        lblRD4.setBounds(950, 230, 60, 60);
+        lblRD4.setBounds(950, 290, 60, 60);
 
+        lblRD2.setForeground(new Color(0f,0f,0f,0f));
+        lblRD2.setText("31");
         lblRD2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRD2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1534,8 +1600,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRD2);
-        lblRD2.setBounds(830, 230, 60, 60);
+        lblRD2.setBounds(830, 290, 60, 60);
 
+        lblRD3.setForeground(new Color(0f,0f,0f,0f));
+        lblRD3.setText("32");
         lblRD3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRD3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1543,8 +1611,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRD3);
-        lblRD3.setBounds(890, 230, 60, 60);
+        lblRD3.setBounds(890, 290, 60, 60);
 
+        lblRD5.setForeground(new Color(0f,0f,0f,0f));
+        lblRD5.setText("34");
         lblRD5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRD5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1552,8 +1622,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRD5);
-        lblRD5.setBounds(1010, 230, 60, 60);
+        lblRD5.setBounds(1010, 290, 60, 60);
 
+        lblRD6.setForeground(new Color(0f,0f,0f,0f));
+        lblRD6.setText("35");
         lblRD6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRD6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1561,8 +1633,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRD6);
-        lblRD6.setBounds(1070, 230, 60, 60);
+        lblRD6.setBounds(1070, 290, 60, 60);
 
+        lblRD7.setForeground(new Color(0f,0f,0f,0f));
+        lblRD7.setText("36");
         lblRD7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRD7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1570,8 +1644,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRD7);
-        lblRD7.setBounds(1130, 230, 60, 60);
+        lblRD7.setBounds(1130, 290, 60, 60);
 
+        lblRD8.setForeground(new Color(0f,0f,0f,0f));
+        lblRD8.setText("37");
         lblRD8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRD8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1579,8 +1655,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRD8);
-        lblRD8.setBounds(1190, 230, 60, 60);
+        lblRD8.setBounds(1190, 290, 60, 60);
 
+        lblRD9.setForeground(new Color(0f,0f,0f,0f));
+        lblRD9.setText("38");
         lblRD9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRD9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1588,8 +1666,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRD9);
-        lblRD9.setBounds(1250, 230, 60, 60);
+        lblRD9.setBounds(1250, 290, 60, 60);
 
+        lblRD10.setForeground(new Color(0f,0f,0f,0f));
+        lblRD10.setText("39");
         lblRD10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRD10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1597,8 +1677,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRD10);
-        lblRD10.setBounds(1310, 230, 60, 60);
+        lblRD10.setBounds(1310, 290, 60, 60);
 
+        lblRE1.setForeground(new Color(0f,0f,0f,0f));
+        lblRE1.setText("40");
         lblRE1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRE1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1606,8 +1688,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRE1);
-        lblRE1.setBounds(770, 290, 60, 60);
+        lblRE1.setBounds(770, 350, 60, 60);
 
+        lblRE2.setForeground(new Color(0f,0f,0f,0f));
+        lblRE2.setText("41");
         lblRE2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRE2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1615,8 +1699,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRE2);
-        lblRE2.setBounds(830, 290, 60, 60);
+        lblRE2.setBounds(830, 350, 60, 60);
 
+        lblRE3.setForeground(new Color(0f,0f,0f,0f));
+        lblRE3.setText("42");
         lblRE3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRE3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1624,8 +1710,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRE3);
-        lblRE3.setBounds(890, 290, 60, 60);
+        lblRE3.setBounds(890, 350, 60, 60);
 
+        lblRE4.setForeground(new Color(0f,0f,0f,0f));
+        lblRE4.setText("43");
         lblRE4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRE4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1633,8 +1721,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRE4);
-        lblRE4.setBounds(950, 290, 60, 60);
+        lblRE4.setBounds(950, 350, 60, 60);
 
+        lblRE5.setForeground(new Color(0f,0f,0f,0f));
+        lblRE5.setText("44");
         lblRE5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRE5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1642,8 +1732,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRE5);
-        lblRE5.setBounds(1010, 290, 60, 60);
+        lblRE5.setBounds(1010, 350, 60, 60);
 
+        lblRE6.setForeground(new Color(0f,0f,0f,0f));
+        lblRE6.setText("45");
         lblRE6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRE6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1651,8 +1743,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRE6);
-        lblRE6.setBounds(1070, 290, 60, 60);
+        lblRE6.setBounds(1070, 350, 60, 60);
 
+        lblRE7.setForeground(new Color(0f,0f,0f,0f));
+        lblRE7.setText("46");
         lblRE7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRE7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1660,8 +1754,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRE7);
-        lblRE7.setBounds(1130, 290, 60, 60);
+        lblRE7.setBounds(1130, 350, 60, 60);
 
+        lblRE8.setForeground(new Color(0f,0f,0f,0f));
+        lblRE8.setText("47");
         lblRE8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRE8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1669,8 +1765,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRE8);
-        lblRE8.setBounds(1190, 290, 60, 60);
+        lblRE8.setBounds(1190, 350, 60, 60);
 
+        lblRE9.setForeground(new Color(0f,0f,0f,0f));
+        lblRE9.setText("48");
         lblRE9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRE9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1678,8 +1776,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRE9);
-        lblRE9.setBounds(1250, 290, 60, 60);
+        lblRE9.setBounds(1250, 350, 60, 60);
 
+        lblRE10.setForeground(new Color(0f,0f,0f,0f));
+        lblRE10.setText("49");
         lblRE10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRE10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1687,8 +1787,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRE10);
-        lblRE10.setBounds(1310, 290, 60, 60);
+        lblRE10.setBounds(1310, 350, 60, 60);
 
+        lblRF1.setForeground(new Color(0f,0f,0f,0f));
+        lblRF1.setText("50");
         lblRF1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRF1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1696,8 +1798,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRF1);
-        lblRF1.setBounds(770, 350, 60, 60);
+        lblRF1.setBounds(770, 410, 60, 60);
 
+        lblRF2.setForeground(new Color(0f,0f,0f,0f));
+        lblRF2.setText("51");
         lblRF2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRF2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1705,8 +1809,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRF2);
-        lblRF2.setBounds(830, 350, 60, 60);
+        lblRF2.setBounds(830, 410, 60, 60);
 
+        lblRF3.setForeground(new Color(0f,0f,0f,0f));
+        lblRF3.setText("52");
         lblRF3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRF3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1714,8 +1820,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRF3);
-        lblRF3.setBounds(890, 350, 60, 60);
+        lblRF3.setBounds(890, 410, 60, 60);
 
+        lblRF4.setForeground(new Color(0f,0f,0f,0f));
+        lblRF4.setText("53");
         lblRF4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRF4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1723,8 +1831,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRF4);
-        lblRF4.setBounds(950, 350, 60, 60);
+        lblRF4.setBounds(950, 410, 60, 60);
 
+        lblRF5.setForeground(new Color(0f,0f,0f,0f));
+        lblRF5.setText("54");
         lblRF5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRF5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1732,8 +1842,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRF5);
-        lblRF5.setBounds(1010, 350, 60, 60);
+        lblRF5.setBounds(1010, 410, 60, 60);
 
+        lblRF6.setForeground(new Color(0f,0f,0f,0f));
+        lblRF6.setText("55");
         lblRF6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRF6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1741,8 +1853,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRF6);
-        lblRF6.setBounds(1070, 350, 60, 60);
+        lblRF6.setBounds(1070, 410, 60, 60);
 
+        lblRF7.setForeground(new Color(0f,0f,0f,0f));
+        lblRF7.setText("56");
         lblRF7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRF7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1750,8 +1864,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRF7);
-        lblRF7.setBounds(1130, 350, 60, 60);
+        lblRF7.setBounds(1130, 410, 60, 60);
 
+        lblRF8.setForeground(new Color(0f,0f,0f,0f));
+        lblRF8.setText("57");
         lblRF8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRF8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1759,8 +1875,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRF8);
-        lblRF8.setBounds(1190, 350, 60, 60);
+        lblRF8.setBounds(1190, 410, 60, 60);
 
+        lblRF9.setForeground(new Color(0f,0f,0f,0f));
+        lblRF9.setText("58");
         lblRF9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRF9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1768,8 +1886,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRF9);
-        lblRF9.setBounds(1250, 350, 60, 60);
+        lblRF9.setBounds(1250, 410, 60, 60);
 
+        lblRF10.setForeground(new Color(0f,0f,0f,0f));
+        lblRF10.setText("59");
         lblRF10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRF10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1777,8 +1897,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRF10);
-        lblRF10.setBounds(1310, 350, 60, 60);
+        lblRF10.setBounds(1310, 410, 60, 60);
 
+        lblRG1.setForeground(new Color(0f,0f,0f,0f));
+        lblRG1.setText("60");
         lblRG1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRG1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1786,8 +1908,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRG1);
-        lblRG1.setBounds(770, 410, 60, 60);
+        lblRG1.setBounds(770, 470, 60, 60);
 
+        lblRG4.setForeground(new Color(0f,0f,0f,0f));
+        lblRG4.setText("63");
         lblRG4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRG4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1795,8 +1919,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRG4);
-        lblRG4.setBounds(950, 410, 60, 60);
+        lblRG4.setBounds(950, 470, 60, 60);
 
+        lblRG2.setForeground(new Color(0f,0f,0f,0f));
+        lblRG2.setText("61");
         lblRG2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRG2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1804,8 +1930,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRG2);
-        lblRG2.setBounds(830, 410, 60, 60);
+        lblRG2.setBounds(830, 470, 60, 60);
 
+        lblRG3.setForeground(new Color(0f,0f,0f,0f));
+        lblRG3.setText("62");
         lblRG3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRG3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1813,8 +1941,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRG3);
-        lblRG3.setBounds(890, 410, 60, 60);
+        lblRG3.setBounds(890, 470, 60, 60);
 
+        lblRG5.setForeground(new Color(0f,0f,0f,0f));
+        lblRG5.setText("64");
         lblRG5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRG5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1822,8 +1952,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRG5);
-        lblRG5.setBounds(1010, 410, 60, 60);
+        lblRG5.setBounds(1010, 470, 60, 60);
 
+        lblRG6.setForeground(new Color(0f,0f,0f,0f));
+        lblRG6.setText("65");
         lblRG6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRG6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1831,8 +1963,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRG6);
-        lblRG6.setBounds(1070, 410, 60, 60);
+        lblRG6.setBounds(1070, 470, 60, 60);
 
+        lblRG7.setForeground(new Color(0f,0f,0f,0f));
+        lblRG7.setText("66");
         lblRG7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRG7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1840,8 +1974,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRG7);
-        lblRG7.setBounds(1130, 410, 60, 60);
+        lblRG7.setBounds(1130, 470, 60, 60);
 
+        lblRG8.setForeground(new Color(0f,0f,0f,0f));
+        lblRG8.setText("67");
         lblRG8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRG8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1849,8 +1985,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRG8);
-        lblRG8.setBounds(1190, 410, 60, 60);
+        lblRG8.setBounds(1190, 470, 60, 60);
 
+        lblRG9.setForeground(new Color(0f,0f,0f,0f));
+        lblRG9.setText("68");
         lblRG9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRG9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1858,8 +1996,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRG9);
-        lblRG9.setBounds(1250, 410, 60, 60);
+        lblRG9.setBounds(1250, 470, 60, 60);
 
+        lblRG10.setForeground(new Color(0f,0f,0f,0f));
+        lblRG10.setText("69");
         lblRG10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRG10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1867,8 +2007,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRG10);
-        lblRG10.setBounds(1310, 410, 60, 60);
+        lblRG10.setBounds(1310, 470, 60, 60);
 
+        lblRH1.setForeground(new Color(0f,0f,0f,0f));
+        lblRH1.setText("70");
         lblRH1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRH1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1876,8 +2018,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRH1);
-        lblRH1.setBounds(770, 470, 60, 60);
+        lblRH1.setBounds(770, 530, 60, 60);
 
+        lblRH2.setForeground(new Color(0f,0f,0f,0f));
+        lblRH2.setText("71");
         lblRH2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRH2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1885,8 +2029,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRH2);
-        lblRH2.setBounds(830, 470, 60, 60);
+        lblRH2.setBounds(830, 530, 60, 60);
 
+        lblRH3.setForeground(new Color(0f,0f,0f,0f));
+        lblRH3.setText("72");
         lblRH3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRH3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1894,8 +2040,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRH3);
-        lblRH3.setBounds(890, 470, 60, 60);
+        lblRH3.setBounds(890, 530, 60, 60);
 
+        lblRH4.setForeground(new Color(0f,0f,0f,0f));
+        lblRH4.setText("73");
         lblRH4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRH4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1903,8 +2051,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRH4);
-        lblRH4.setBounds(950, 470, 60, 60);
+        lblRH4.setBounds(950, 530, 60, 60);
 
+        lblRH5.setForeground(new Color(0f,0f,0f,0f));
+        lblRH5.setText("74");
         lblRH5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRH5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1912,8 +2062,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRH5);
-        lblRH5.setBounds(1010, 470, 60, 60);
+        lblRH5.setBounds(1010, 530, 60, 60);
 
+        lblRH6.setForeground(new Color(0f,0f,0f,0f));
+        lblRH6.setText("75");
         lblRH6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRH6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1921,8 +2073,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRH6);
-        lblRH6.setBounds(1070, 470, 60, 60);
+        lblRH6.setBounds(1070, 530, 60, 60);
 
+        lblRH7.setForeground(new Color(0f,0f,0f,0f));
+        lblRH7.setText("76");
         lblRH7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRH7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1930,8 +2084,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRH7);
-        lblRH7.setBounds(1130, 470, 60, 60);
+        lblRH7.setBounds(1130, 530, 60, 60);
 
+        lblRH8.setForeground(new Color(0f,0f,0f,0f));
+        lblRH8.setText("77");
         lblRH8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRH8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1939,8 +2095,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRH8);
-        lblRH8.setBounds(1190, 470, 60, 60);
+        lblRH8.setBounds(1190, 530, 60, 60);
 
+        lblRH9.setForeground(new Color(0f,0f,0f,0f));
+        lblRH9.setText("78");
         lblRH9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRH9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1948,8 +2106,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRH9);
-        lblRH9.setBounds(1250, 470, 60, 60);
+        lblRH9.setBounds(1250, 530, 60, 60);
 
+        lblRH10.setForeground(new Color(0f,0f,0f,0f));
+        lblRH10.setText("79");
         lblRH10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRH10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1957,8 +2117,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRH10);
-        lblRH10.setBounds(1310, 470, 60, 60);
+        lblRH10.setBounds(1310, 530, 60, 60);
 
+        lblRI1.setForeground(new Color(0f,0f,0f,0f));
+        lblRI1.setText("80");
         lblRI1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRI1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1966,8 +2128,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRI1);
-        lblRI1.setBounds(770, 530, 60, 60);
+        lblRI1.setBounds(770, 590, 60, 60);
 
+        lblRI2.setForeground(new Color(0f,0f,0f,0f));
+        lblRI2.setText("81");
         lblRI2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRI2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1975,8 +2139,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRI2);
-        lblRI2.setBounds(830, 530, 60, 60);
+        lblRI2.setBounds(830, 590, 60, 60);
 
+        lblRI3.setForeground(new Color(0f,0f,0f,0f));
+        lblRI3.setText("82");
         lblRI3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRI3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1984,8 +2150,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRI3);
-        lblRI3.setBounds(890, 530, 60, 60);
+        lblRI3.setBounds(890, 590, 60, 60);
 
+        lblRI4.setForeground(new Color(0f,0f,0f,0f));
+        lblRI4.setText("83");
         lblRI4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRI4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -1993,8 +2161,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRI4);
-        lblRI4.setBounds(950, 530, 60, 60);
+        lblRI4.setBounds(950, 590, 60, 60);
 
+        lblRI5.setForeground(new Color(0f,0f,0f,0f));
+        lblRI5.setText("84");
         lblRI5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRI5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2002,8 +2172,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRI5);
-        lblRI5.setBounds(1010, 530, 60, 60);
+        lblRI5.setBounds(1010, 590, 60, 60);
 
+        lblRI6.setForeground(new Color(0f,0f,0f,0f));
+        lblRI6.setText("85");
         lblRI6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRI6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2011,8 +2183,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRI6);
-        lblRI6.setBounds(1070, 530, 60, 60);
+        lblRI6.setBounds(1070, 590, 60, 60);
 
+        lblRI7.setForeground(new Color(0f,0f,0f,0f));
+        lblRI7.setText("86");
         lblRI7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRI7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2020,8 +2194,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRI7);
-        lblRI7.setBounds(1130, 530, 60, 60);
+        lblRI7.setBounds(1130, 590, 60, 60);
 
+        lblRI8.setForeground(new Color(0f,0f,0f,0f));
+        lblRI8.setText("87");
         lblRI8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRI8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2029,8 +2205,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRI8);
-        lblRI8.setBounds(1190, 530, 60, 60);
+        lblRI8.setBounds(1190, 590, 60, 60);
 
+        lblRI9.setForeground(new Color(0f,0f,0f,0f));
+        lblRI9.setText("88");
         lblRI9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRI9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2038,8 +2216,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRI9);
-        lblRI9.setBounds(1250, 530, 60, 60);
+        lblRI9.setBounds(1250, 590, 60, 60);
 
+        lblRI10.setForeground(new Color(0f,0f,0f,0f));
+        lblRI10.setText("89");
         lblRI10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRI10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2047,8 +2227,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRI10);
-        lblRI10.setBounds(1310, 530, 60, 60);
+        lblRI10.setBounds(1310, 590, 60, 60);
 
+        lblRJ1.setForeground(new Color(0f,0f,0f,0f));
+        lblRJ1.setText("90");
         lblRJ1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRJ1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2056,8 +2238,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRJ1);
-        lblRJ1.setBounds(770, 590, 60, 60);
+        lblRJ1.setBounds(770, 650, 60, 60);
 
+        lblRJ2.setForeground(new Color(0f,0f,0f,0f));
+        lblRJ2.setText("91");
         lblRJ2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRJ2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2065,8 +2249,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRJ2);
-        lblRJ2.setBounds(830, 590, 60, 60);
+        lblRJ2.setBounds(830, 650, 60, 60);
 
+        lblRJ3.setForeground(new Color(0f,0f,0f,0f));
+        lblRJ3.setText("92");
         lblRJ3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRJ3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2074,8 +2260,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRJ3);
-        lblRJ3.setBounds(890, 590, 60, 60);
+        lblRJ3.setBounds(890, 650, 60, 60);
 
+        lblRJ4.setForeground(new Color(0f,0f,0f,0f));
+        lblRJ4.setText("93");
         lblRJ4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRJ4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2083,8 +2271,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRJ4);
-        lblRJ4.setBounds(950, 590, 60, 60);
+        lblRJ4.setBounds(950, 650, 60, 60);
 
+        lblRJ5.setForeground(new Color(0f,0f,0f,0f));
+        lblRJ5.setText("94");
         lblRJ5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRJ5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2092,8 +2282,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRJ5);
-        lblRJ5.setBounds(1010, 590, 60, 60);
+        lblRJ5.setBounds(1010, 650, 60, 60);
 
+        lblRJ6.setForeground(new Color(0f,0f,0f,0f));
+        lblRJ6.setText("95");
         lblRJ6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRJ6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2101,8 +2293,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRJ6);
-        lblRJ6.setBounds(1070, 590, 60, 60);
+        lblRJ6.setBounds(1070, 650, 60, 60);
 
+        lblRJ7.setForeground(new Color(0f,0f,0f,0f));
+        lblRJ7.setText("96");
         lblRJ7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRJ7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2110,8 +2304,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRJ7);
-        lblRJ7.setBounds(1130, 590, 60, 60);
+        lblRJ7.setBounds(1130, 650, 60, 60);
 
+        lblRJ8.setForeground(new Color(0f,0f,0f,0f));
+        lblRJ8.setText("97");
         lblRJ8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRJ8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2119,8 +2315,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRJ8);
-        lblRJ8.setBounds(1190, 590, 60, 60);
+        lblRJ8.setBounds(1190, 650, 60, 60);
 
+        lblRJ9.setForeground(new Color(0f,0f,0f,0f));
+        lblRJ9.setText("98");
         lblRJ9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRJ9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2128,8 +2326,10 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRJ9);
-        lblRJ9.setBounds(1250, 590, 60, 60);
+        lblRJ9.setBounds(1250, 650, 60, 60);
 
+        lblRJ10.setForeground(new Color(0f,0f,0f,0f));
+        lblRJ10.setText("99");
         lblRJ10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
         lblRJ10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2137,49 +2337,50 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRJ10);
-        lblRJ10.setBounds(1310, 590, 60, 60);
+        lblRJ10.setBounds(1310, 650, 60, 60);
 
         jLabel2.setText("J");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(750, 610, 20, 16);
+        jLabel2.setBounds(750, 670, 20, 16);
 
         lblBoardSideA1.setText("A");
         getContentPane().add(lblBoardSideA1);
-        lblBoardSideA1.setBounds(750, 70, 20, 16);
+        lblBoardSideA1.setBounds(750, 130, 20, 16);
 
         lblBoardSideB1.setText("B");
         getContentPane().add(lblBoardSideB1);
-        lblBoardSideB1.setBounds(750, 130, 20, 16);
+        lblBoardSideB1.setBounds(750, 190, 20, 16);
 
         lblBoardSideC1.setText("C");
         getContentPane().add(lblBoardSideC1);
-        lblBoardSideC1.setBounds(750, 190, 20, 16);
+        lblBoardSideC1.setBounds(750, 250, 20, 16);
 
         lblBoardSideD1.setText("D");
         getContentPane().add(lblBoardSideD1);
-        lblBoardSideD1.setBounds(750, 250, 20, 16);
+        lblBoardSideD1.setBounds(750, 310, 20, 16);
 
         lblBoardSideE1.setText("E");
         getContentPane().add(lblBoardSideE1);
-        lblBoardSideE1.setBounds(750, 310, 20, 16);
+        lblBoardSideE1.setBounds(750, 370, 20, 16);
 
         lblBoardSideF1.setText("F");
         getContentPane().add(lblBoardSideF1);
-        lblBoardSideF1.setBounds(750, 370, 20, 16);
+        lblBoardSideF1.setBounds(750, 430, 20, 16);
 
         jLabel13.setText("G");
         getContentPane().add(jLabel13);
-        jLabel13.setBounds(750, 430, 20, 16);
+        jLabel13.setBounds(750, 490, 20, 16);
 
         jLabel14.setText("H");
         getContentPane().add(jLabel14);
-        jLabel14.setBounds(750, 490, 20, 16);
+        jLabel14.setBounds(750, 550, 20, 16);
 
         jLabel15.setText("I");
         getContentPane().add(jLabel15);
-        jLabel15.setBounds(750, 550, 20, 16);
+        jLabel15.setBounds(750, 610, 20, 16);
 
         lblRadarBackground1.setBackground(new java.awt.Color(0, 153, 51));
+        lblRadarBackground1.setForeground(new Color(0f,0f,0f,0f));
         lblRadarBackground1.setOpaque(true);
         lblRadarBackground1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseReleased(java.awt.event.MouseEvent evt) {
@@ -2187,7 +2388,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
         getContentPane().add(lblRadarBackground1);
-        lblRadarBackground1.setBounds(770, 50, 600, 600);
+        lblRadarBackground1.setBounds(770, 110, 600, 600);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
