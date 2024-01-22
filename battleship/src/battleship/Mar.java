@@ -179,398 +179,893 @@ public class Mar extends javax.swing.JFrame {
         lblBoardTopNumbers.setBounds(70, 20, 600, 16);
 
         lblSA4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSA4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSA4MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSA4);
         lblSA4.setBounds(220, 50, 60, 60);
 
         lblSA2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSA2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSA2MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSA2);
         lblSA2.setBounds(100, 50, 60, 60);
 
         lblSA3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSA3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSA3MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSA3);
         lblSA3.setBounds(160, 50, 60, 60);
 
         lblSA5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSA5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSA5MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSA5);
         lblSA5.setBounds(280, 50, 60, 60);
 
         lblSA6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSA6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSA6MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSA6);
         lblSA6.setBounds(340, 50, 60, 60);
 
         lblSA7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSA7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSA7MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSA7);
         lblSA7.setBounds(400, 50, 60, 60);
 
         lblSA8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSA8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSA8MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSA8);
         lblSA8.setBounds(460, 50, 60, 60);
 
         lblSA9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSA9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSA9MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSA9);
         lblSA9.setBounds(520, 50, 60, 60);
 
         lblSA10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSA10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSA10MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSA10);
         lblSA10.setBounds(580, 50, 60, 60);
 
         lblSB1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSB1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSB1MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSB1);
         lblSB1.setBounds(40, 110, 60, 60);
 
         lblSB2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSB2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSB2MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSB2);
         lblSB2.setBounds(100, 110, 60, 60);
 
         lblSB3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSB3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSB3MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSB3);
         lblSB3.setBounds(160, 110, 60, 60);
 
         lblSB4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSB4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSB4MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSB4);
         lblSB4.setBounds(220, 110, 60, 60);
 
         lblSB5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSB5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSB5MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSB5);
         lblSB5.setBounds(280, 110, 60, 60);
 
         lblSB6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSB6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSB6MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSB6);
         lblSB6.setBounds(340, 110, 60, 60);
 
         lblSB7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSB7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSB7MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSB7);
         lblSB7.setBounds(400, 110, 60, 60);
 
         lblSB8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSB8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSB8MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSB8);
         lblSB8.setBounds(460, 110, 60, 60);
 
         lblSB9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSB9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSB9MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSB9);
         lblSB9.setBounds(520, 110, 60, 60);
 
         lblSB10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSB10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSB10MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSB10);
         lblSB10.setBounds(580, 110, 60, 60);
 
         lblSC1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSC1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSC1MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSC1);
         lblSC1.setBounds(40, 170, 60, 60);
 
         lblSC2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSC2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSC2MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSC2);
         lblSC2.setBounds(100, 170, 60, 60);
 
         lblSC3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSC3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSC3MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSC3);
         lblSC3.setBounds(160, 170, 60, 60);
 
         lblSC4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSC4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSC4MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSC4);
         lblSC4.setBounds(220, 170, 60, 60);
 
         lblSC5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSC5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSC5MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSC5);
         lblSC5.setBounds(280, 170, 60, 60);
 
         lblSC6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSC6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSC6MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSC6);
         lblSC6.setBounds(340, 170, 60, 60);
 
         lblSC7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSC7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSC7MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSC7);
         lblSC7.setBounds(400, 170, 60, 60);
 
         lblSC8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSC8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSC8MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSC8);
         lblSC8.setBounds(460, 170, 60, 60);
 
         lblSC9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSC9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSC9MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSC9);
         lblSC9.setBounds(520, 170, 60, 60);
 
         lblSC10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSC10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSC10MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSC10);
         lblSC10.setBounds(580, 170, 60, 60);
 
         lblSD1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSD1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSD1MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSD1);
         lblSD1.setBounds(40, 230, 60, 60);
 
         lblSD4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSD4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSD4MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSD4);
         lblSD4.setBounds(220, 230, 60, 60);
 
         lblSD2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSD2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSD2MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSD2);
         lblSD2.setBounds(100, 230, 60, 60);
 
         lblSD3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSD3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSD3MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSD3);
         lblSD3.setBounds(160, 230, 60, 60);
 
         lblSD5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSD5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSD5MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSD5);
         lblSD5.setBounds(280, 230, 60, 60);
 
         lblSD6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSD6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSD6MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSD6);
         lblSD6.setBounds(340, 230, 60, 60);
 
         lblSD7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSD7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSD7MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSD7);
         lblSD7.setBounds(400, 230, 60, 60);
 
         lblSD8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSD8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSD8MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSD8);
         lblSD8.setBounds(460, 230, 60, 60);
 
         lblSD9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSD9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSD9MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSD9);
         lblSD9.setBounds(520, 230, 60, 60);
 
         lblSD10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSD10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSD10MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSD10);
         lblSD10.setBounds(580, 230, 60, 60);
 
         lblSE1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSE1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSE1MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSE1);
         lblSE1.setBounds(40, 290, 60, 60);
 
         lblSE2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSE2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSE2MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSE2);
         lblSE2.setBounds(100, 290, 60, 60);
 
         lblSE3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSE3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSE3MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSE3);
         lblSE3.setBounds(160, 290, 60, 60);
 
         lblSE4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSE4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSE4MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSE4);
         lblSE4.setBounds(220, 290, 60, 60);
 
         lblSE5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSE5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSE5MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSE5);
         lblSE5.setBounds(280, 290, 60, 60);
 
         lblSE6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSE6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSE6MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSE6);
         lblSE6.setBounds(340, 290, 60, 60);
 
         lblSE7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSE7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSE7MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSE7);
         lblSE7.setBounds(400, 290, 60, 60);
 
         lblSE8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSE8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSE8MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSE8);
         lblSE8.setBounds(460, 290, 60, 60);
 
         lblSE9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSE9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSE9MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSE9);
         lblSE9.setBounds(520, 290, 60, 60);
 
         lblSE10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSE10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSE10MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSE10);
         lblSE10.setBounds(580, 290, 60, 60);
 
         lblSF1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSF1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSF1MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSF1);
         lblSF1.setBounds(40, 350, 60, 60);
 
         lblSF2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSF2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSF2MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSF2);
         lblSF2.setBounds(100, 350, 60, 60);
 
         lblSF3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSF3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSF3MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSF3);
         lblSF3.setBounds(160, 350, 60, 60);
 
         lblSF4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSF4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSF4MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSF4);
         lblSF4.setBounds(220, 350, 60, 60);
 
         lblSF5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSF5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSF5MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSF5);
         lblSF5.setBounds(280, 350, 60, 60);
 
         lblSF6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSF6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSF6MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSF6);
         lblSF6.setBounds(340, 350, 60, 60);
 
         lblSF7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSF7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSF7MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSF7);
         lblSF7.setBounds(400, 350, 60, 60);
 
         lblSF8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSF8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSF8MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSF8);
         lblSF8.setBounds(460, 350, 60, 60);
 
         lblSF9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSF9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSF9MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSF9);
         lblSF9.setBounds(520, 350, 60, 60);
 
         lblSF10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSF10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSF10MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSF10);
         lblSF10.setBounds(580, 350, 60, 60);
 
         lblSG1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSG1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSG1MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSG1);
         lblSG1.setBounds(40, 410, 60, 60);
 
         lblSG4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSG4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSG4MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSG4);
         lblSG4.setBounds(220, 410, 60, 60);
 
         lblSG2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSG2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSG2MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSG2);
         lblSG2.setBounds(100, 410, 60, 60);
 
         lblSG3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSG3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSG3MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSG3);
         lblSG3.setBounds(160, 410, 60, 60);
 
         lblSG5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSG5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSG5MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSG5);
         lblSG5.setBounds(280, 410, 60, 60);
 
         lblSG6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSG6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSG6MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSG6);
         lblSG6.setBounds(340, 410, 60, 60);
 
         lblSG7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSG7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSG7MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSG7);
         lblSG7.setBounds(400, 410, 60, 60);
 
         lblSG8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSG8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSG8MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSG8);
         lblSG8.setBounds(460, 410, 60, 60);
 
         lblSG9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSG9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSG9MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSG9);
         lblSG9.setBounds(520, 410, 60, 60);
 
         lblSG10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSG10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSG10MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSG10);
         lblSG10.setBounds(580, 410, 60, 60);
 
         lblSH1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSH1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSH1MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSH1);
         lblSH1.setBounds(40, 470, 60, 60);
 
         lblSH2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSH2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSH2MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSH2);
         lblSH2.setBounds(100, 470, 60, 60);
 
         lblSH3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSH3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSH3MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSH3);
         lblSH3.setBounds(160, 470, 60, 60);
 
         lblSH4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSH4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSH4MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSH4);
         lblSH4.setBounds(220, 470, 60, 60);
 
         lblSH5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSH5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSH5MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSH5);
         lblSH5.setBounds(280, 470, 60, 60);
 
         lblSH6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSH6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSH6MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSH6);
         lblSH6.setBounds(340, 470, 60, 60);
 
         lblSH7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSH7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSH7MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSH7);
         lblSH7.setBounds(400, 470, 60, 60);
 
         lblSH8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSH8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSH8MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSH8);
         lblSH8.setBounds(460, 470, 60, 60);
 
         lblSH9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSH9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSH9MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSH9);
         lblSH9.setBounds(520, 470, 60, 60);
 
         lblSH10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSH10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSH10MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSH10);
         lblSH10.setBounds(580, 470, 60, 60);
 
         lblSI1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSI1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSI1MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSI1);
         lblSI1.setBounds(40, 530, 60, 60);
 
         lblSI2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSI2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSI2MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSI2);
         lblSI2.setBounds(100, 530, 60, 60);
 
         lblSI3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSI3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSI3MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSI3);
         lblSI3.setBounds(160, 530, 60, 60);
 
         lblSI4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSI4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSI4MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSI4);
         lblSI4.setBounds(220, 530, 60, 60);
 
         lblSI5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSI5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSI5MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSI5);
         lblSI5.setBounds(280, 530, 60, 60);
 
         lblSI6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSI6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSI6MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSI6);
         lblSI6.setBounds(340, 530, 60, 60);
 
         lblSI7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSI7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSI7MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSI7);
         lblSI7.setBounds(400, 530, 60, 60);
 
         lblSI8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSI8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSI8MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSI8);
         lblSI8.setBounds(460, 530, 60, 60);
 
         lblSI9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSI9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSI9MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSI9);
         lblSI9.setBounds(520, 530, 60, 60);
 
         lblIS10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblIS10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblIS10MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblIS10);
         lblIS10.setBounds(580, 530, 60, 60);
 
         lblSJ1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSJ1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSJ1MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSJ1);
         lblSJ1.setBounds(40, 590, 60, 60);
 
         lblSJ2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSJ2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSJ2MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSJ2);
         lblSJ2.setBounds(100, 590, 60, 60);
 
         lblSJ3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSJ3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSJ3MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSJ3);
         lblSJ3.setBounds(160, 590, 60, 60);
 
         lblSJ4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSJ4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSJ4MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSJ4);
         lblSJ4.setBounds(220, 590, 60, 60);
 
         lblSJ5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSJ5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSJ5MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSJ5);
         lblSJ5.setBounds(280, 590, 60, 60);
 
         lblSJ6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSJ6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSJ6MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSJ6);
         lblSJ6.setBounds(340, 590, 60, 60);
 
         lblSJ7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSJ7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSJ7MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSJ7);
         lblSJ7.setBounds(400, 590, 60, 60);
 
         lblSJ8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSJ8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSJ8MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSJ8);
         lblSJ8.setBounds(460, 590, 60, 60);
 
         lblSJ9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSJ9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSJ9MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSJ9);
         lblSJ9.setBounds(520, 590, 60, 60);
 
         lblSJ10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
+        lblSJ10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSJ10MouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSJ10);
         lblSJ10.setBounds(580, 590, 60, 60);
 
@@ -636,6 +1131,402 @@ public class Mar extends javax.swing.JFrame {
         // TODO add your handling code here:
         System.err.println("celda");
     }//GEN-LAST:event_lblSA1MouseReleased
+
+    private void lblSJ10MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSJ10MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSJ10MouseReleased
+
+    private void lblSJ9MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSJ9MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSJ9MouseReleased
+
+    private void lblSJ8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSJ8MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSJ8MouseReleased
+
+    private void lblSJ7MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSJ7MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSJ7MouseReleased
+
+    private void lblSJ6MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSJ6MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSJ6MouseReleased
+
+    private void lblSJ5MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSJ5MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSJ5MouseReleased
+
+    private void lblSJ4MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSJ4MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSJ4MouseReleased
+
+    private void lblSJ3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSJ3MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSJ3MouseReleased
+
+    private void lblSJ2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSJ2MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSJ2MouseReleased
+
+    private void lblSJ1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSJ1MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSJ1MouseReleased
+
+    private void lblIS10MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblIS10MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblIS10MouseReleased
+
+    private void lblSI9MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSI9MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSI9MouseReleased
+
+    private void lblSI8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSI8MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSI8MouseReleased
+
+    private void lblSI7MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSI7MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSI7MouseReleased
+
+    private void lblSI6MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSI6MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSI6MouseReleased
+
+    private void lblSI5MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSI5MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSI5MouseReleased
+
+    private void lblSI4MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSI4MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSI4MouseReleased
+
+    private void lblSI3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSI3MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSI3MouseReleased
+
+    private void lblSI2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSI2MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSI2MouseReleased
+
+    private void lblSI1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSI1MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSI1MouseReleased
+
+    private void lblSH1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSH1MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSH1MouseReleased
+
+    private void lblSH2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSH2MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSH2MouseReleased
+
+    private void lblSH3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSH3MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSH3MouseReleased
+
+    private void lblSH4MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSH4MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSH4MouseReleased
+
+    private void lblSH5MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSH5MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSH5MouseReleased
+
+    private void lblSH6MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSH6MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSH6MouseReleased
+
+    private void lblSH7MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSH7MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSH7MouseReleased
+
+    private void lblSH8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSH8MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSH8MouseReleased
+
+    private void lblSH9MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSH9MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSH9MouseReleased
+
+    private void lblSH10MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSH10MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSH10MouseReleased
+
+    private void lblSG1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSG1MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSG1MouseReleased
+
+    private void lblSG2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSG2MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSG2MouseReleased
+
+    private void lblSG3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSG3MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSG3MouseReleased
+
+    private void lblSG4MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSG4MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSG4MouseReleased
+
+    private void lblSG5MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSG5MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSG5MouseReleased
+
+    private void lblSG6MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSG6MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSG6MouseReleased
+
+    private void lblSG7MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSG7MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSG7MouseReleased
+
+    private void lblSG8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSG8MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSG8MouseReleased
+
+    private void lblSG9MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSG9MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSG9MouseReleased
+
+    private void lblSG10MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSG10MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSG10MouseReleased
+
+    private void lblSF1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSF1MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSF1MouseReleased
+
+    private void lblSF2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSF2MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSF2MouseReleased
+
+    private void lblSF3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSF3MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSF3MouseReleased
+
+    private void lblSF4MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSF4MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSF4MouseReleased
+
+    private void lblSF5MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSF5MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSF5MouseReleased
+
+    private void lblSF6MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSF6MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSF6MouseReleased
+
+    private void lblSF7MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSF7MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSF7MouseReleased
+
+    private void lblSF8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSF8MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSF8MouseReleased
+
+    private void lblSF9MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSF9MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSF9MouseReleased
+
+    private void lblSF10MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSF10MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSF10MouseReleased
+
+    private void lblSE10MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSE10MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSE10MouseReleased
+
+    private void lblSE9MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSE9MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSE9MouseReleased
+
+    private void lblSE8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSE8MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSE8MouseReleased
+
+    private void lblSE7MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSE7MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSE7MouseReleased
+
+    private void lblSE6MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSE6MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSE6MouseReleased
+
+    private void lblSE5MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSE5MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSE5MouseReleased
+
+    private void lblSE4MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSE4MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSE4MouseReleased
+
+    private void lblSE3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSE3MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSE3MouseReleased
+
+    private void lblSE2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSE2MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSE2MouseReleased
+
+    private void lblSE1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSE1MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSE1MouseReleased
+
+    private void lblSD10MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSD10MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSD10MouseReleased
+
+    private void lblSD9MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSD9MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSD9MouseReleased
+
+    private void lblSD8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSD8MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSD8MouseReleased
+
+    private void lblSD7MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSD7MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSD7MouseReleased
+
+    private void lblSD6MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSD6MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSD6MouseReleased
+
+    private void lblSD5MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSD5MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSD5MouseReleased
+
+    private void lblSD4MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSD4MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSD4MouseReleased
+
+    private void lblSD3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSD3MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSD3MouseReleased
+
+    private void lblSD2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSD2MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSD2MouseReleased
+
+    private void lblSD1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSD1MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSD1MouseReleased
+
+    private void lblSC1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSC1MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSC1MouseReleased
+
+    private void lblSC2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSC2MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSC2MouseReleased
+
+    private void lblSC3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSC3MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSC3MouseReleased
+
+    private void lblSC4MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSC4MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSC4MouseReleased
+
+    private void lblSC5MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSC5MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSC5MouseReleased
+
+    private void lblSC6MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSC6MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSC6MouseReleased
+
+    private void lblSC7MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSC7MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSC7MouseReleased
+
+    private void lblSC8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSC8MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSC8MouseReleased
+
+    private void lblSC9MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSC9MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSC9MouseReleased
+
+    private void lblSC10MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSC10MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSC10MouseReleased
+
+    private void lblSB1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSB1MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSB1MouseReleased
+
+    private void lblSB2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSB2MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSB2MouseReleased
+
+    private void lblSB3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSB3MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSB3MouseReleased
+
+    private void lblSB4MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSB4MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSB4MouseReleased
+
+    private void lblSB5MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSB5MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSB5MouseReleased
+
+    private void lblSB6MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSB6MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSB6MouseReleased
+
+    private void lblSB7MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSB7MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSB7MouseReleased
+
+    private void lblSB8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSB8MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSB8MouseReleased
+
+    private void lblSB9MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSB9MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSB9MouseReleased
+
+    private void lblSB10MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSB10MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSB10MouseReleased
+
+    private void lblSA2MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSA2MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSA2MouseReleased
+
+    private void lblSA3MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSA3MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSA3MouseReleased
+
+    private void lblSA4MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSA4MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSA4MouseReleased
+
+    private void lblSA5MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSA5MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSA5MouseReleased
+
+    private void lblSA6MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSA6MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSA6MouseReleased
+
+    private void lblSA7MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSA7MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSA7MouseReleased
+
+    private void lblSA8MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSA8MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSA8MouseReleased
+
+    private void lblSA9MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSA9MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSA9MouseReleased
+
+    private void lblSA10MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSA10MouseReleased
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblSA10MouseReleased
 
     /**
      * @param args the command line arguments
