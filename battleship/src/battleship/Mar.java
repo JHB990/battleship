@@ -8,6 +8,7 @@ package battleship;
 
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.Label;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -15,6 +16,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
 
 /**
  *
@@ -22,11 +27,16 @@ import javax.swing.ImageIcon;
  */
 public class Mar extends javax.swing.JFrame {
 
+    JLabel[] labels;
     /**
      * Creates new form Mar
      */
     public Mar() {
         initComponents();
+        labels = new JLabel[]{lblSA1,lblSA2,lblSA3};
+        
+        UIManager.put("Label.disabledForeground",Color.RED);
+        
         //sets the imageIcon on lblRadarBackground
 //        BufferedImage bufferedImage;
 //        File file = new File("C:\\battleshipAssets\\radarBlue.png");
@@ -2601,7 +2611,12 @@ public class Mar extends javax.swing.JFrame {
 
     private void lblSA1MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSA1MouseReleased
         // TODO add your handling code here:
-        System.out.println(Integer.valueOf( lblSA1.getText()));
+        for(int i =0; i<labels.length;i++){
+            
+            lblSA1.setForeground(Color.red);
+            labels[i].setEnabled(false);
+            System.out.println("ok");
+        }
     }//GEN-LAST:event_lblSA1MouseReleased
 
     private void lblSJ10MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSJ10MouseReleased
