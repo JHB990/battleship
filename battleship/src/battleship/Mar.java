@@ -35,21 +35,24 @@ import javax.swing.table.TableModel;
  */
 public class Mar extends javax.swing.JFrame {
 
-    DefaultTableModel modelMar, modelRadar;
+    DefaultTableModel modelSea, modelRadar;
+
+    boolean ship5Slots, ship4Slots, ship3Slots1, ship3Slots2, ship2Slots;
 
     /**
      * Creates new form Mar
      */
     public Mar() {
         initComponents();
-        tblMar.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
-        tblMar.setColumnSelectionAllowed(true);
-        tblMar.setRowSelectionAllowed(false);
-        tblMar.setCellSelectionEnabled(true);
-        modelMar = (DefaultTableModel) tblMar.getModel();
+        setShipImagesOnLabels();
+        tblSea.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
+        tblSea.setColumnSelectionAllowed(true);
+        tblSea.setRowSelectionAllowed(false);
+        tblSea.setCellSelectionEnabled(true);
+        modelSea = (DefaultTableModel) tblSea.getModel();
         modelRadar = (DefaultTableModel) tblRadar.getModel();
 
-        setTableWidthAndHeight(tblMar);
+        setTableWidthAndHeight(tblSea);
 //        setTableWidthAndHeight(tblRadar);
 
         //sets the imageIcon on lblRadarBackground
@@ -95,15 +98,22 @@ public class Mar extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
+        lblCarrier5Slots = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        tblMar = new javax.swing.JTable();
+        tblSea = new javax.swing.JTable();
         jScrollPane2 = new javax.swing.JScrollPane();
         tblRadar = new javax.swing.JTable();
+        lblBattleship4Slots = new javax.swing.JLabel();
+        lblCruiser3Slots = new javax.swing.JLabel();
+        lblSubmarine3Slots = new javax.swing.JLabel();
+        lblDestroyer2Slots = new javax.swing.JLabel();
+        lblShipsMessageDialog = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBounds(new java.awt.Rectangle(0, 0, 1500, 900));
+        setBounds(new java.awt.Rectangle(0, 0, 1500, 1000));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        setMinimumSize(new java.awt.Dimension(1500, 900));
+        setMaximumSize(new java.awt.Dimension(1500, 1000));
+        setMinimumSize(new java.awt.Dimension(1500, 1000));
         setResizable(false);
         addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseMoved(java.awt.event.MouseEvent evt) {
@@ -200,7 +210,13 @@ public class Mar extends javax.swing.JFrame {
         getContentPane().add(jLabel15);
         jLabel15.setBounds(750, 610, 20, 16);
 
-        tblMar.setModel(new javax.swing.table.DefaultTableModel(
+        lblCarrier5Slots.setBackground(new java.awt.Color(153, 153, 153));
+        lblCarrier5Slots.setText("5Slot");
+        lblCarrier5Slots.setOpaque(true);
+        getContentPane().add(lblCarrier5Slots);
+        lblCarrier5Slots.setBounds(50, 800, 180, 66);
+
+        tblSea.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {"A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10"},
                 {"B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10"},
@@ -225,19 +241,19 @@ public class Mar extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        tblMar.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
-        tblMar.setEnabled(false);
-        tblMar.setMaximumSize(new java.awt.Dimension(600, 600));
-        tblMar.setMinimumSize(new java.awt.Dimension(600, 600));
-        tblMar.setPreferredSize(new java.awt.Dimension(600, 600));
-        tblMar.setSelectionMode(javax.swing.ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
-        tblMar.setTableHeader(null);
-        tblMar.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+        tblSea.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
+        tblSea.setEnabled(false);
+        tblSea.setMaximumSize(new java.awt.Dimension(600, 600));
+        tblSea.setMinimumSize(new java.awt.Dimension(600, 600));
+        tblSea.setPreferredSize(new java.awt.Dimension(600, 600));
+        tblSea.setSelectionMode(javax.swing.ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
+        tblSea.setTableHeader(null);
+        tblSea.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseMoved(java.awt.event.MouseEvent evt) {
-                tblMarMouseMoved(evt);
+                tblSeaMouseMoved(evt);
             }
         });
-        jScrollPane1.setViewportView(tblMar);
+        jScrollPane1.setViewportView(tblSea);
 
         getContentPane().add(jScrollPane1);
         jScrollPane1.setBounds(50, 110, 610, 610);
@@ -259,22 +275,55 @@ public class Mar extends javax.swing.JFrame {
         getContentPane().add(jScrollPane2);
         jScrollPane2.setBounds(830, 150, 453, 403);
 
+        lblBattleship4Slots.setBackground(new java.awt.Color(153, 153, 153));
+        lblBattleship4Slots.setText("4Slots");
+        lblBattleship4Slots.setOpaque(true);
+        getContentPane().add(lblBattleship4Slots);
+        lblBattleship4Slots.setBounds(50, 890, 150, 50);
+
+        lblCruiser3Slots.setBackground(new java.awt.Color(153, 153, 153));
+        lblCruiser3Slots.setText("3Slots1");
+        lblCruiser3Slots.setOpaque(true);
+        getContentPane().add(lblCruiser3Slots);
+        lblCruiser3Slots.setBounds(260, 810, 120, 45);
+
+        lblSubmarine3Slots.setBackground(new java.awt.Color(153, 153, 153));
+        lblSubmarine3Slots.setText("3Slots2");
+        lblSubmarine3Slots.setOpaque(true);
+        getContentPane().add(lblSubmarine3Slots);
+        lblSubmarine3Slots.setBounds(260, 900, 120, 36);
+
+        lblDestroyer2Slots.setBackground(new java.awt.Color(153, 153, 153));
+        lblDestroyer2Slots.setText("2Slots");
+        lblDestroyer2Slots.setOpaque(true);
+        getContentPane().add(lblDestroyer2Slots);
+        lblDestroyer2Slots.setBounds(410, 810, 80, 50);
+
+        lblShipsMessageDialog.setBackground(new java.awt.Color(51, 255, 51));
+        lblShipsMessageDialog.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        lblShipsMessageDialog.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblShipsMessageDialog.setText("Coloca tus unidades!");
+        lblShipsMessageDialog.setOpaque(true);
+        getContentPane().add(lblShipsMessageDialog);
+        lblShipsMessageDialog.setBounds(50, 730, 610, 60);
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void tblMarMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblMarMouseMoved
+    private void tblSeaMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblSeaMouseMoved
         // TODO add your handling code here:
 
 //        tblMar.setColumnSelectionAllowed(true);
-        tblMar= (JTable)evt.getSource();
-        int column = tblMar.columnAtPoint(evt.getPoint());
-        int row = tblMar.rowAtPoint(evt.getPoint());
-        tblMar.changeSelection(row, column, false, false);
-    }//GEN-LAST:event_tblMarMouseMoved
+        tblSea = (JTable) evt.getSource();
+        int column = tblSea.columnAtPoint(evt.getPoint());
+        int row = tblSea.rowAtPoint(evt.getPoint());
+        tblSea.changeSelection(row, column, false, false);
+    }//GEN-LAST:event_tblSeaMouseMoved
 
     private void formMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseMoved
         // TODO add your handling code here:
-        tblMar.clearSelection();
+        tblSea.clearSelection();
+        tblRadar.clearSelection();
     }//GEN-LAST:event_formMouseMoved
 
     /**
@@ -328,19 +377,62 @@ public class Mar extends javax.swing.JFrame {
 
         }
 
-//        tabla.getSelectionModel().addListSelectionListener((ListSelectionEvent evt) -> {
-//            int row = tabla.getSelectedRow();
-//            int cow = tabla.getSelectedColumn();
-//            
-//            tabla.setColumnSelectionAllowed(true);
-//            tabla.setRowSelectionAllowed(true);
-//        });
-
         tabla.setAutoResizeMode(JTable.AUTO_RESIZE_LAST_COLUMN);
-//        tabla.setAutoResizeMode(JTable.);
         tabla.setPreferredScrollableViewportSize(null);
     }
-    
+
+
+    private void changeSelectedShipState(boolean state) {
+        if (state) {
+            ship5Slots = true;
+            ship4Slots = true;
+            ship3Slots1 = true;
+            ship3Slots2 = true;
+            ship2Slots = true;
+        } else {
+            ship5Slots = false;
+            ship4Slots = false;
+            ship3Slots1 = false;
+            ship3Slots2 = false;
+            ship2Slots = false;
+        }
+    }
+
+    private void setShipImagesOnLabels() {
+
+        File file5Slot = new File("C:\\battleshipAssets\\5Slot.png");
+        File file4Slot = new File("C:\\battleshipAssets\\4Slot.png");
+        File file3Slot1 = new File("C:\\battleshipAssets\\3Slot1.png");
+        File file3Slot2 = new File("C:\\battleshipAssets\\3Slot2.png");
+        File file2Slot = new File("C:\\battleshipAssets\\2Slot.png");
+        BufferedImage bufferedImage;
+        try {
+            bufferedImage = ImageIO.read(file5Slot);
+            ImageIcon imageIcon = new ImageIcon(bufferedImage);
+            lblCarrier5Slots.setIcon(imageIcon);
+
+            bufferedImage = ImageIO.read(file4Slot);
+            imageIcon = new ImageIcon(bufferedImage);
+            lblBattleship4Slots.setIcon(imageIcon);
+
+            bufferedImage = ImageIO.read(file3Slot1);
+            imageIcon = new ImageIcon(bufferedImage);
+            lblCruiser3Slots.setIcon(imageIcon);
+
+            bufferedImage = ImageIO.read(file3Slot2);
+            imageIcon = new ImageIcon(bufferedImage);
+            lblSubmarine3Slots.setIcon(imageIcon);
+
+            bufferedImage = ImageIO.read(file2Slot);
+            imageIcon = new ImageIcon(bufferedImage);
+            lblDestroyer2Slots.setIcon(imageIcon);
+        } catch (IOException ex) {
+            Logger.getLogger(Mar.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }
+
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
@@ -353,6 +445,7 @@ public class Mar extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JLabel lblBattleship4Slots;
     private javax.swing.JLabel lblBoardSideA;
     private javax.swing.JLabel lblBoardSideA1;
     private javax.swing.JLabel lblBoardSideB;
@@ -367,7 +460,12 @@ public class Mar extends javax.swing.JFrame {
     private javax.swing.JLabel lblBoardSideF1;
     private javax.swing.JLabel lblBoardTopNumbers;
     private javax.swing.JLabel lblBoardTopNumbers1;
-    private javax.swing.JTable tblMar;
+    private javax.swing.JLabel lblCarrier5Slots;
+    private javax.swing.JLabel lblCruiser3Slots;
+    private javax.swing.JLabel lblDestroyer2Slots;
+    private javax.swing.JLabel lblShipsMessageDialog;
+    private javax.swing.JLabel lblSubmarine3Slots;
     private javax.swing.JTable tblRadar;
+    private javax.swing.JTable tblSea;
     // End of variables declaration//GEN-END:variables
 }
