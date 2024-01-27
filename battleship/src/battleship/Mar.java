@@ -99,6 +99,10 @@ public class Mar extends javax.swing.JFrame {
         tblMar = new javax.swing.JTable();
         jScrollPane2 = new javax.swing.JScrollPane();
         tblRadar = new javax.swing.JTable();
+        lblSingScore = new javax.swing.JLabel();
+        lblSingTurn = new javax.swing.JLabel();
+        lblScore = new javax.swing.JLabel();
+        lblTurn = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBounds(new java.awt.Rectangle(0, 0, 1500, 900));
@@ -257,7 +261,36 @@ public class Mar extends javax.swing.JFrame {
         jScrollPane2.setViewportView(tblRadar);
 
         getContentPane().add(jScrollPane2);
-        jScrollPane2.setBounds(830, 150, 452, 402);
+        jScrollPane2.setBounds(830, 150, 453, 403);
+
+        lblSingScore.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
+        lblSingScore.setText("Score:");
+        getContentPane().add(lblSingScore);
+        lblSingScore.setBounds(280, 10, 130, 50);
+
+        lblSingTurn.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
+        lblSingTurn.setText("Turn:");
+        getContentPane().add(lblSingTurn);
+        lblSingTurn.setBounds(710, 10, 100, 60);
+
+        lblScore.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+        lblScore.setText(".");
+        lblScore.addAncestorListener(new javax.swing.event.AncestorListener() {
+            public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
+                lblScoreAncestorAdded(evt);
+            }
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
+            }
+            public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
+            }
+        });
+        getContentPane().add(lblScore);
+        lblScore.setBounds(410, 10, 210, 50);
+
+        lblTurn.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+        lblTurn.setText(".");
+        getContentPane().add(lblTurn);
+        lblTurn.setBounds(810, 20, 140, 50);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -277,9 +310,21 @@ public class Mar extends javax.swing.JFrame {
         tblMar.clearSelection();
     }//GEN-LAST:event_formMouseMoved
 
+    private void lblScoreAncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_lblScoreAncestorAdded
+        // TODO add your handling code here:
+        int turn = 0;
+        if (turn == 1){
+            String x = "0";
+        }else if (turn == 2){
+            String y = "0";
+        }
+        //lblScore.setText("P1: " + x + " P2: " + y);
+    }//GEN-LAST:event_lblScoreAncestorAdded
+
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -304,6 +349,7 @@ public class Mar extends javax.swing.JFrame {
         }
         //</editor-fold>
         //</editor-fold>
+        
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -315,7 +361,7 @@ public class Mar extends javax.swing.JFrame {
 
     private void setTableWidthAndHeight(JTable tabla) {
         tabla.setRowHeight(60);
-//        tabla.setAutoResizeMode(tabla.AUTO_RESIZE_OFF);
+//      tabla.setAutoResizeMode(tabla.AUTO_RESIZE_OFF);
 
         for (int i = 0; i < 10; i++) {
             tabla.getColumnModel().getColumn(i).setPreferredWidth(60);
@@ -338,7 +384,7 @@ public class Mar extends javax.swing.JFrame {
 //        tabla.setAutoResizeMode(JTable.);
         tabla.setPreferredScrollableViewportSize(null);
     }
-
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
@@ -365,6 +411,10 @@ public class Mar extends javax.swing.JFrame {
     private javax.swing.JLabel lblBoardSideF1;
     private javax.swing.JLabel lblBoardTopNumbers;
     private javax.swing.JLabel lblBoardTopNumbers1;
+    private javax.swing.JLabel lblScore;
+    private javax.swing.JLabel lblSingScore;
+    private javax.swing.JLabel lblSingTurn;
+    private javax.swing.JLabel lblTurn;
     private javax.swing.JTable tblMar;
     private javax.swing.JTable tblRadar;
     // End of variables declaration//GEN-END:variables
