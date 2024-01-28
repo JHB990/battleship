@@ -301,7 +301,7 @@ public class Mar extends javax.swing.JFrame {
         jScrollPane2.setViewportView(tblRadar);
 
         getContentPane().add(jScrollPane2);
-        jScrollPane2.setBounds(830, 150, 452, 402);
+        jScrollPane2.setBounds(830, 150, 453, 403);
 
         lblBattleship4Slots.setBackground(new java.awt.Color(153, 153, 153));
         lblBattleship4Slots.setText("4SlotsBattleship");
@@ -443,6 +443,7 @@ public class Mar extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -467,6 +468,7 @@ public class Mar extends javax.swing.JFrame {
         }
         //</editor-fold>
         //</editor-fold>
+        
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -478,7 +480,7 @@ public class Mar extends javax.swing.JFrame {
 
     private void setTableWidthAndHeight(JTable tabla) {
         tabla.setRowHeight(60);
-//        tabla.setAutoResizeMode(tabla.AUTO_RESIZE_OFF);
+//      tabla.setAutoResizeMode(tabla.AUTO_RESIZE_OFF);
 
         for (int i = 0; i < 10; i++) {
             tabla.getColumnModel().getColumn(i).setPreferredWidth(60);
@@ -492,6 +494,7 @@ public class Mar extends javax.swing.JFrame {
         tabla.setAutoResizeMode(JTable.AUTO_RESIZE_LAST_COLUMN);
         tabla.setPreferredScrollableViewportSize(null);
     }
+
 
     private void changeSelectedShipState(boolean state) {
         if (state) {
@@ -542,6 +545,7 @@ public class Mar extends javax.swing.JFrame {
         }
 
     }
+
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
