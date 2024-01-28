@@ -7,19 +7,24 @@ prueba hans
 package battleship;
 
 import java.awt.Color;
+import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Label;
 import java.awt.Point;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
+import javax.swing.CellEditor;
+import javax.swing.DefaultCellEditor;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
+import javax.swing.JTextField;
 import javax.swing.ListSelectionModel;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
@@ -27,6 +32,7 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableColumn;
 import javax.swing.table.TableModel;
 
 /**
@@ -38,7 +44,12 @@ public class Mar extends javax.swing.JFrame {
     DefaultTableModel modelSea, modelRadar;
 
     boolean ship5Slots, ship4Slots, ship3Slots1, ship3Slots2, ship2Slots;
-
+    
+    ArrayList<Integer> currentPlacedUnitsArrayList = new ArrayList<>();
+    DefaultTableCellRenderer defaultTableCellRenderer = new DefaultTableCellRenderer();
+    JTextField textbox = new JTextField();
+    
+    
     /**
      * Creates new form Mar
      */
@@ -46,13 +57,20 @@ public class Mar extends javax.swing.JFrame {
         initComponents();
         setShipImagesOnLabels();
         tblSea.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
-        tblSea.setColumnSelectionAllowed(true);
-        tblSea.setRowSelectionAllowed(false);
+//        tblSea.setColumnSelectionAllowed(true);
+//        tblSea.setRowSelectionAllowed(false);
         tblSea.setCellSelectionEnabled(true);
         modelSea = (DefaultTableModel) tblSea.getModel();
         modelRadar = (DefaultTableModel) tblRadar.getModel();
 
         setTableWidthAndHeight(tblSea);
+        
+                
+        
+        
+        tblSea.setCellEditor(new DefaultCellEditor(textbox));
+        
+        
 //        setTableWidthAndHeight(tblRadar);
 
         //sets the imageIcon on lblRadarBackground
@@ -211,8 +229,13 @@ public class Mar extends javax.swing.JFrame {
         jLabel15.setBounds(750, 610, 20, 16);
 
         lblCarrier5Slots.setBackground(new java.awt.Color(153, 153, 153));
-        lblCarrier5Slots.setText("5Slot");
+        lblCarrier5Slots.setText("5SlotCarrier");
         lblCarrier5Slots.setOpaque(true);
+        lblCarrier5Slots.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblCarrier5SlotsMouseReleased(evt);
+            }
+        });
         getContentPane().add(lblCarrier5Slots);
         lblCarrier5Slots.setBounds(50, 800, 180, 66);
 
@@ -253,6 +276,11 @@ public class Mar extends javax.swing.JFrame {
                 tblSeaMouseMoved(evt);
             }
         });
+        tblSea.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                tblSeaMouseReleased(evt);
+            }
+        });
         jScrollPane1.setViewportView(tblSea);
 
         getContentPane().add(jScrollPane1);
@@ -276,31 +304,51 @@ public class Mar extends javax.swing.JFrame {
         jScrollPane2.setBounds(830, 150, 452, 402);
 
         lblBattleship4Slots.setBackground(new java.awt.Color(153, 153, 153));
-        lblBattleship4Slots.setText("4Slots");
+        lblBattleship4Slots.setText("4SlotsBattleship");
         lblBattleship4Slots.setOpaque(true);
+        lblBattleship4Slots.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblBattleship4SlotsMouseReleased(evt);
+            }
+        });
         getContentPane().add(lblBattleship4Slots);
-        lblBattleship4Slots.setBounds(50, 890, 150, 50);
+        lblBattleship4Slots.setBounds(240, 810, 150, 50);
 
         lblCruiser3Slots.setBackground(new java.awt.Color(153, 153, 153));
         lblCruiser3Slots.setText("3Slots1");
         lblCruiser3Slots.setOpaque(true);
+        lblCruiser3Slots.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblCruiser3SlotsMouseReleased(evt);
+            }
+        });
         getContentPane().add(lblCruiser3Slots);
-        lblCruiser3Slots.setBounds(260, 810, 120, 45);
+        lblCruiser3Slots.setBounds(410, 820, 120, 45);
 
         lblSubmarine3Slots.setBackground(new java.awt.Color(153, 153, 153));
         lblSubmarine3Slots.setText("3Slots2");
         lblSubmarine3Slots.setOpaque(true);
+        lblSubmarine3Slots.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblSubmarine3SlotsMouseReleased(evt);
+            }
+        });
         getContentPane().add(lblSubmarine3Slots);
-        lblSubmarine3Slots.setBounds(260, 900, 120, 36);
+        lblSubmarine3Slots.setBounds(50, 900, 120, 36);
 
         lblDestroyer2Slots.setBackground(new java.awt.Color(153, 153, 153));
         lblDestroyer2Slots.setText("2Slots");
         lblDestroyer2Slots.setOpaque(true);
+        lblDestroyer2Slots.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                lblDestroyer2SlotsMouseReleased(evt);
+            }
+        });
         getContentPane().add(lblDestroyer2Slots);
-        lblDestroyer2Slots.setBounds(410, 810, 80, 50);
+        lblDestroyer2Slots.setBounds(190, 890, 80, 50);
 
         lblShipsMessageDialog.setBackground(new java.awt.Color(51, 255, 51));
-        lblShipsMessageDialog.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        lblShipsMessageDialog.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         lblShipsMessageDialog.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblShipsMessageDialog.setText("Coloca tus unidades!");
         lblShipsMessageDialog.setOpaque(true);
@@ -326,6 +374,72 @@ public class Mar extends javax.swing.JFrame {
         tblRadar.clearSelection();
     }//GEN-LAST:event_formMouseMoved
 
+    private void lblCarrier5SlotsMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblCarrier5SlotsMouseReleased
+        // TODO add your handling code here:
+        lblShipsMessageDialog.setText("Portaaviones seleccionado (5 pts)");
+        changeSelectedShipState(false);
+        ship5Slots = true;
+    }//GEN-LAST:event_lblCarrier5SlotsMouseReleased
+
+    private void lblBattleship4SlotsMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblBattleship4SlotsMouseReleased
+        // TODO add your handling code here:
+        lblShipsMessageDialog.setText("Nave de batalla seleccionado (4 pts)");
+        changeSelectedShipState(false);
+        ship4Slots=true;
+    }//GEN-LAST:event_lblBattleship4SlotsMouseReleased
+
+    private void lblCruiser3SlotsMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblCruiser3SlotsMouseReleased
+        // TODO add your handling code here:
+        lblShipsMessageDialog.setText("Crucero seleccionado (3 pts)");
+        changeSelectedShipState(false);
+        ship3Slots1=true;
+    }//GEN-LAST:event_lblCruiser3SlotsMouseReleased
+
+    private void lblSubmarine3SlotsMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblSubmarine3SlotsMouseReleased
+        // TODO add your handling code here:
+        lblShipsMessageDialog.setText("Submarino seleccionado (3 pts)");
+        changeSelectedShipState(false);
+        ship3Slots2=true;
+    }//GEN-LAST:event_lblSubmarine3SlotsMouseReleased
+
+    private void lblDestroyer2SlotsMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblDestroyer2SlotsMouseReleased
+        // TODO add your handling code here:
+        lblShipsMessageDialog.setText("Destructor seleccionado (2 pts)");
+        changeSelectedShipState(false);
+        ship2Slots=true;
+    }//GEN-LAST:event_lblDestroyer2SlotsMouseReleased
+
+    private void tblSeaMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblSeaMouseReleased
+        // TODO add your handling code here:
+//        JTable tableCoords = new JTable();
+//        tableCoords = (JTable) evt.getSource();
+//        
+//        int xCoord = tableCoords.columnAtPoint(evt.getPoint());
+//        int yCoord = tableCoords.rowAtPoint(evt.getPoint());
+//        
+        
+        int yCoord = tblSea.getSelectedRow();
+        int xCoord = tblSea.getSelectedColumn();
+        
+//        tblSea.getCellEditor(yCoord, xCoord).
+
+
+//        TableColumn column = tblSea.getColumnModel().getColumn(xCoord);
+//        column.setCellEditor(new DefaultCellEditor(textbox));
+//        tblSea.setCellEditor(new DefaultCellEditor(textbox));
+        textbox.setBackground(Color.red);
+        
+        
+        
+        System.out.println("x: "+xCoord);
+        System.out.println("y: "+yCoord);
+    }//GEN-LAST:event_tblSeaMouseReleased
+
+    private void setUnits(){
+        
+    }
+    
+    
     /**
      * @param args the command line arguments
      */
@@ -369,7 +483,7 @@ public class Mar extends javax.swing.JFrame {
         for (int i = 0; i < 10; i++) {
             tabla.getColumnModel().getColumn(i).setPreferredWidth(60);
 
-            DefaultTableCellRenderer defaultTableCellRenderer = new DefaultTableCellRenderer();
+            
             defaultTableCellRenderer.setHorizontalAlignment(JLabel.CENTER);
             tabla.getColumnModel().getColumn(i).setCellRenderer(defaultTableCellRenderer);
 
