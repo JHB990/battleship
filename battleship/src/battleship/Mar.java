@@ -49,6 +49,8 @@ public class Mar extends javax.swing.JFrame {
     DefaultTableCellRenderer defaultTableCellRenderer = new DefaultTableCellRenderer();
     JTextField textbox = new JTextField();
     
+    JTable seaTable = new JTable();
+    
     
     /**
      * Creates new form Mar
