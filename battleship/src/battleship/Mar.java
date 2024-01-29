@@ -47,11 +47,11 @@ import javax.swing.table.TableModel;
  * @author Ferna
  */
 public class Mar extends javax.swing.JFrame {
-    
+
     DefaultTableModel modelSea, modelRadar;
-    
+
     boolean ship5Slots = true, ship4Slots = true, ship3Slots1 = true, ship3Slots2 = true, ship2Slots = true;
-    
+
     ArrayList<Integer> currentPlacedUnits = new ArrayList<>();
     ArrayList<Integer> seaBoard = new ArrayList<>();
     ArrayList<Integer> radarBoard = new ArrayList<>();
@@ -70,15 +70,13 @@ public class Mar extends javax.swing.JFrame {
         tblRadar.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
         tblSea.setCellSelectionEnabled(true);
         tblRadar.setCellSelectionEnabled(true);
-        
-        
-        
+
         radarBoard.set(0, 1);
         radarBoard.set(1, 1);
         radarBoard.set(2, 1);
         radarBoard.set(3, 1);
         radarBoard.set(4, 1);
-        
+
     }
 
     /**
@@ -123,6 +121,7 @@ public class Mar extends javax.swing.JFrame {
         btnCancelarSeleccion = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
         tblRadar = new javax.swing.JTable();
+        lblRadar = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBounds(new java.awt.Rectangle(0, 0, 1500, 1000));
@@ -324,7 +323,7 @@ public class Mar extends javax.swing.JFrame {
         getContentPane().add(lblDestroyer2Slots);
         lblDestroyer2Slots.setBounds(190, 890, 80, 50);
 
-        lblShipsMessageDialog.setBackground(new java.awt.Color(51, 255, 51));
+        lblShipsMessageDialog.setBackground(new java.awt.Color(204, 204, 204));
         lblShipsMessageDialog.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         lblShipsMessageDialog.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblShipsMessageDialog.setText("Coloca tus unidades!");
@@ -370,6 +369,8 @@ public class Mar extends javax.swing.JFrame {
         });
         tblRadar.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         tblRadar.setEnabled(false);
+        tblRadar.setGridColor(new java.awt.Color(153, 102, 0));
+        tblRadar.setInheritsPopupMenu(true);
         tblRadar.setMaximumSize(new java.awt.Dimension(600, 600));
         tblRadar.setMinimumSize(new java.awt.Dimension(600, 600));
         tblRadar.setPreferredSize(new java.awt.Dimension(600, 600));
@@ -390,6 +391,13 @@ public class Mar extends javax.swing.JFrame {
         getContentPane().add(jScrollPane2);
         jScrollPane2.setBounds(780, 110, 610, 610);
 
+        lblRadar.setBackground(new java.awt.Color(204, 204, 204));
+        lblRadar.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        lblRadar.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblRadar.setOpaque(true);
+        getContentPane().add(lblRadar);
+        lblRadar.setBounds(780, 730, 610, 60);
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -400,13 +408,14 @@ public class Mar extends javax.swing.JFrame {
         int column = tblSea.columnAtPoint(evt.getPoint());
         int row = tblSea.rowAtPoint(evt.getPoint());
         tblSea.changeSelection(row, column, false, false);
-        
+
 
     }//GEN-LAST:event_tblSeaMouseMoved
 
     private void formMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseMoved
         // TODO add your handling code here:
         tblSea.clearSelection();
+        tblRadar.clearSelection();
 
     }//GEN-LAST:event_formMouseMoved
 
@@ -463,7 +472,7 @@ public class Mar extends javax.swing.JFrame {
         lblShipsMessageDialog.setText("Destructor seleccionado");
         disableShipsLabels();
         lblDestroyer2Slots.setEnabled(true);
-        
+
         System.out.println(currentPlacedUnits);
     }//GEN-LAST:event_lblDestroyer2SlotsMouseReleased
 
@@ -473,30 +482,26 @@ public class Mar extends javax.swing.JFrame {
         if (lblCarrier5Slots.isEnabled()) {
             ship5Slots = false;
             setUnits(5, "Portaaviones", tblSea, lblCarrier5Slots);
-        }
-        else if (lblBattleship4Slots.isEnabled()) {
+        } else if (lblBattleship4Slots.isEnabled()) {
             ship4Slots = false;
             setUnits(4, "Nave de Batalla", tblSea, lblBattleship4Slots);
-        }
-        else if (lblCruiser3Slots.isEnabled()) {
+        } else if (lblCruiser3Slots.isEnabled()) {
             ship3Slots1 = false;
             setUnits(3, "Crucero", tblSea, lblCruiser3Slots);
-        }
-        else if (lblSubmarine3Slots.isEnabled()) {
+        } else if (lblSubmarine3Slots.isEnabled()) {
             ship3Slots2 = false;
             setUnits(3, "Submarino", tblSea, lblSubmarine3Slots);
-        }
-        else if (lblDestroyer2Slots.isEnabled()) {
+        } else if (lblDestroyer2Slots.isEnabled()) {
             ship2Slots = false;
             setUnits(2, "Destructor", tblSea, lblDestroyer2Slots);
         }
-        
+
 
     }//GEN-LAST:event_tblSeaMouseReleased
 
     private void btnCancelarSeleccionMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCancelarSeleccionMouseReleased
         // TODO add your handling code here:
-        enableShipsLabels(true,true,true,true,true);
+        enableShipsLabels(true, true, true, true, true);
         changeSelectedShipState(true);
         currentPlacedUnits.clear();
         System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
@@ -512,70 +517,115 @@ public class Mar extends javax.swing.JFrame {
     }//GEN-LAST:event_btnCancelarSeleccionMouseReleased
 
     private void tblRadarMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblRadarMouseReleased
-        // TODO add your handling code here:
+        // TODO add your handling code here:             valores del array:  0 = celda vacia, 1=barco en celda, 2 = disparo fallado, 3 = disparo previamente acertado en celda, 4 = barco destruido
+        System.out.println("pre fired: "+radarBoard);
+        System.out.println("currentCell: "+getCellNumber(tblRadar));
+        
+        switch (radarBoard.get(getCellNumber(tblRadar))){
+            case 0:
+                lblRadar.setText("Fallaste el tiro");
+                radarBoard.set(getCellNumber(tblRadar), 2);
+                tblRadar.setValueAt("Fallaste", tblRadar.getSelectedRow(), tblRadar.getSelectedColumn());
+                break;
+            case 1:
+                lblRadar.setText("Has acertado!");
+                radarBoard.set(getCellNumber(tblRadar), 3);
+                tblRadar.setValueAt("Acierto", tblRadar.getSelectedRow(), tblRadar.getSelectedColumn());
+                break;
+            case 2:
+                lblRadar.setText("ya has disparado en esa celda");
+                break;
+            case 3:
+                lblRadar.setText("ya has acertado en esa celda");
+                break;
+            case 4:
+                lblRadar.setText("El barco ha sido destruido");
+        }
+        
+        if(radarBoard.get(getCellNumber(tblRadar))==1){
+            lblRadar.setText("Has acertado");
+            tblRadar.setValueAt("Acierto", tblRadar.getSelectedRow(), tblRadar.getSelectedColumn());
+            radarBoard.set(getCellNumber(tblRadar),2);
+        }else if(radarBoard.get(getCellNumber(tblRadar))==2){
+            lblRadar.setText("Ya has disparado ahi");
+        }else if(radarBoard.get(getCellNumber(tblRadar))==3){
+            lblRadar.setText("esa celda ya fue destruida");
+        }else if(radarBoard.get(getCellNumber(tblRadar))==4){
+            
+        }
+        System.out.println("post fired: "+radarBoard);
     }//GEN-LAST:event_tblRadarMouseReleased
 
     private void tblRadarMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblRadarMouseMoved
         // TODO add your handling code here:
+        tblRadar = (JTable) evt.getSource();
+        int column = tblRadar.columnAtPoint(evt.getPoint());
+        int row = tblRadar.rowAtPoint(evt.getPoint());
+        tblRadar.changeSelection(row, column, false, false);
     }//GEN-LAST:event_tblRadarMouseMoved
-    
-    private int getCellNumber() {
-        int lastSelectCell = Integer.parseInt(String.valueOf(tblSea.getSelectedRow()) + String.valueOf(tblSea.getSelectedColumn()));
+
+    private int getCellNumber(JTable table) {
+        int lastSelectCell = Integer.parseInt(String.valueOf(table.getSelectedRow()) + String.valueOf(table.getSelectedColumn()));
         return lastSelectCell;
     }
-    
+
     private void disableShipsLabels() {
-            lblCarrier5Slots.setEnabled(false);
-            lblBattleship4Slots.setEnabled(false);
-            lblCruiser3Slots.setEnabled(false);
-            lblSubmarine3Slots.setEnabled(false);
-            lblDestroyer2Slots.setEnabled(false);
+        lblCarrier5Slots.setEnabled(false);
+        lblBattleship4Slots.setEnabled(false);
+        lblCruiser3Slots.setEnabled(false);
+        lblSubmarine3Slots.setEnabled(false);
+        lblDestroyer2Slots.setEnabled(false);
     }
-    
-    private void enableShipsLabels(boolean ship5S,boolean ship4S,boolean  ship3S1, boolean ship3S2,boolean ship2S){
-        if(ship5S)
+
+    private void enableShipsLabels(boolean ship5S, boolean ship4S, boolean ship3S1, boolean ship3S2, boolean ship2S) {
+        if (ship5S) {
             lblCarrier5Slots.setEnabled(true);
-        if(ship4S)
+        }
+        if (ship4S) {
             lblBattleship4Slots.setEnabled(true);
-        if(ship3S1)
+        }
+        if (ship3S1) {
             lblCruiser3Slots.setEnabled(true);
-        if(ship3S2)
+        }
+        if (ship3S2) {
             lblSubmarine3Slots.setEnabled(true);
-        if(ship2S)
+        }
+        if (ship2S) {
             lblDestroyer2Slots.setEnabled(true);
+        }
     }
-    
+
     private void setUnits(int amountOfSlots, String shipName, JTable table, JLabel label) {
         if (amountOfSlots == currentPlacedUnits.size()) {
             return;
         }
-        
+
         Collections.sort(currentPlacedUnits);
-        
-        if (currentPlacedUnits.contains(getCellNumber())) {
+
+        if (currentPlacedUnits.contains(getCellNumber(tblSea))) {
             lblShipsMessageDialog.setText("Celda ya ocupada");
             return;
         }
-        
-        currentPlacedUnits.add(getCellNumber());
-        
+
+        currentPlacedUnits.add(getCellNumber(tblSea));
+
         System.out.println("array ordenado: " + currentPlacedUnits);
         System.out.println("primer elemnento del array: " + currentPlacedUnits.get(0));
         System.out.println("ultimo elemnento del array: " + currentPlacedUnits.get(currentPlacedUnits.size() - 1));
         System.out.println("arr size: " + (currentPlacedUnits.size()));
-        System.out.println("current cellNumber: " + getCellNumber() + "\n\n");
-        
+        System.out.println("current cellNumber: " + getCellNumber(tblSea) + "\n\n");
+
         if ((currentPlacedUnits.size() > 1) && (currentPlacedUnits.get(0) > 1) || (currentPlacedUnits.get(currentPlacedUnits.size() - 1) < 1)) {
-            if (currentPlacedUnits.get(0) - 1 == getCellNumber() || currentPlacedUnits.get(currentPlacedUnits.size() - 2) + 1 == getCellNumber()) {
+            if (currentPlacedUnits.get(0) - 1 == getCellNumber(tblSea) || currentPlacedUnits.get(currentPlacedUnits.size() - 2) + 1 == getCellNumber(tblSea)) {
                 lblShipsMessageDialog.setText("es continuo");
             } else {
                 lblShipsMessageDialog.setText("Seleccione celdas continuas");
                 currentPlacedUnits.remove(currentPlacedUnits.size() - 1);
-                
+
                 return;
             }
         } else if ((currentPlacedUnits.size() > 1) && (currentPlacedUnits.get(0) > 10) || (currentPlacedUnits.get(currentPlacedUnits.size() - 1) < 10)) {
-            if (currentPlacedUnits.get(0) - 10 == getCellNumber() || currentPlacedUnits.get(currentPlacedUnits.size() - 2) + 10 == getCellNumber()) {
+            if (currentPlacedUnits.get(0) - 10 == getCellNumber(tblSea) || currentPlacedUnits.get(currentPlacedUnits.size() - 2) + 10 == getCellNumber(tblSea)) {
                 lblShipsMessageDialog.setText("es continuo");
             } else {
                 lblShipsMessageDialog.setText("Seleccione celdas continuas");
@@ -595,11 +645,11 @@ public class Mar extends javax.swing.JFrame {
 //        }
 
         tblSea.setValueAt(shipName, table.getSelectedRow(), table.getSelectedColumn());
-        
+
         if (amountOfSlots == currentPlacedUnits.size()) {
             enableShipsLabels(ship5Slots, ship4Slots, ship3Slots1, ship3Slots2, ship2Slots);
             label.setEnabled(false);
-            
+
             lblShipsMessageDialog.setText("La unidad ha sido colocada");
             for (Integer units : currentPlacedUnits) {
                 seaBoard.set(units, 1);
@@ -643,7 +693,7 @@ public class Mar extends javax.swing.JFrame {
             }
         });
     }
-    
+
     private void initializeBoards(JTable tabla) {
         tabla.setRowHeight(60);
 //      tabla.setAutoResizeMode(tabla.AUTO_RESIZE_OFF);
@@ -655,13 +705,13 @@ public class Mar extends javax.swing.JFrame {
         }
         tabla.setAutoResizeMode(JTable.AUTO_RESIZE_LAST_COLUMN);
         tabla.setPreferredScrollableViewportSize(null);
-        
+
         for (int i = 0; i < 100; i++) {
             seaBoard.add(0);
             radarBoard.add(0);
         }
     }
-    
+
     private void changeSelectedShipState(boolean state) {
         if (state) {
             ship5Slots = true;
@@ -677,9 +727,9 @@ public class Mar extends javax.swing.JFrame {
             ship2Slots = false;
         }
     }
-    
+
     private void setShipImagesOnLabels() {
-        
+
         File file5Slot = new File("C:\\battleshipAssets\\5Slot.png");
         File file4Slot = new File("C:\\battleshipAssets\\4Slot.png");
         File file3Slot1 = new File("C:\\battleshipAssets\\3Slot1.png");
@@ -690,36 +740,36 @@ public class Mar extends javax.swing.JFrame {
             bufferedImage = ImageIO.read(file5Slot);
             ImageIcon imageIcon = new ImageIcon(bufferedImage);
             lblCarrier5Slots.setIcon(imageIcon);
-            
+
             bufferedImage = ImageIO.read(file4Slot);
             imageIcon = new ImageIcon(bufferedImage);
             lblBattleship4Slots.setIcon(imageIcon);
-            
+
             bufferedImage = ImageIO.read(file3Slot1);
             imageIcon = new ImageIcon(bufferedImage);
             lblCruiser3Slots.setIcon(imageIcon);
-            
+
             bufferedImage = ImageIO.read(file3Slot2);
             imageIcon = new ImageIcon(bufferedImage);
             lblSubmarine3Slots.setIcon(imageIcon);
-            
+
             bufferedImage = ImageIO.read(file2Slot);
             imageIcon = new ImageIcon(bufferedImage);
             lblDestroyer2Slots.setIcon(imageIcon);
         } catch (IOException ex) {
             Logger.getLogger(Mar.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
+
     }
 
-    private void getArrayListBoardFromSsh(){
-        
+    private void getArrayListBoardFromSsh() {
+
     }
-    
-    private void setArrayListBoardToSsh(){
-        
+
+    private void setArrayListBoardToSsh() {
+
     }
-    
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCancelarSeleccion;
     private javax.swing.JLabel jLabel1;
@@ -750,6 +800,7 @@ public class Mar extends javax.swing.JFrame {
     private javax.swing.JLabel lblCarrier5Slots;
     private javax.swing.JLabel lblCruiser3Slots;
     private javax.swing.JLabel lblDestroyer2Slots;
+    private javax.swing.JLabel lblRadar;
     private javax.swing.JLabel lblShipsMessageDialog;
     private javax.swing.JLabel lblSubmarine3Slots;
     private javax.swing.JTable tblRadar;
@@ -758,17 +809,17 @@ public class Mar extends javax.swing.JFrame {
 }
 
 class CustomRenderer extends JLabel implements TableCellRenderer {
-    
+
     int col, row;
     JLabel label;
-    
+
     public CustomRenderer(int col, int row, JLabel label) {
         this.col = col;
         this.row = row;
         this.label = label;
         setOpaque(true);
     }
-    
+
     @Override
     public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
         if (this.row == row && this.col == column) {
@@ -776,8 +827,8 @@ class CustomRenderer extends JLabel implements TableCellRenderer {
         } else {
             setBackground(this.getBackground());
         }
-        
+
         return this;
     }
-    
+
 }
