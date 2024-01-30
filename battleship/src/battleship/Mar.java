@@ -6,6 +6,7 @@ prueba hans
  */
 package battleship;
 
+import com.jcraft.jsch.*;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Font;
@@ -15,9 +16,12 @@ import java.awt.Point;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
@@ -57,6 +61,8 @@ public class Mar extends javax.swing.JFrame {
     ArrayList<Integer> radarBoard = new ArrayList<>();
     DefaultTableCellRenderer defaultTableCellRenderer = new DefaultTableCellRenderer();
     TableModel modelo;
+    boolean seaBoardEnabled = false;
+    int score=0;
 
     /**
      * Creates new form Mar
@@ -70,6 +76,7 @@ public class Mar extends javax.swing.JFrame {
         tblRadar.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
         tblSea.setCellSelectionEnabled(true);
         tblRadar.setCellSelectionEnabled(true);
+        enableBoard(false);
 
         radarBoard.set(0, 1);
         radarBoard.set(1, 1);
@@ -122,6 +129,10 @@ public class Mar extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         tblRadar = new javax.swing.JTable();
         lblRadar = new javax.swing.JLabel();
+        btnEndTurn = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        lblScore = new javax.swing.JLabel();
+        btnConnectSSH = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBounds(new java.awt.Rectangle(0, 0, 1500, 1000));
@@ -398,6 +409,30 @@ public class Mar extends javax.swing.JFrame {
         getContentPane().add(lblRadar);
         lblRadar.setBounds(780, 730, 610, 60);
 
+        btnEndTurn.setText("Terminar Turno");
+        btnEndTurn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEndTurnActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnEndTurn);
+        btnEndTurn.setBounds(650, 890, 111, 23);
+
+        jLabel3.setText("Score:");
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(930, 870, 60, 30);
+        getContentPane().add(lblScore);
+        lblScore.setBounds(1000, 870, 90, 30);
+
+        btnConnectSSH.setText("conectar ssh");
+        btnConnectSSH.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnConnectSSHActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnConnectSSH);
+        btnConnectSSH.setBounds(680, 820, 120, 23);
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -427,6 +462,7 @@ public class Mar extends javax.swing.JFrame {
         currentPlacedUnits.clear();
         lblShipsMessageDialog.setText("Portaaviones seleccionado");
         disableShipsLabels();
+        enableBoard(true);
         lblCarrier5Slots.setEnabled(true);
     }//GEN-LAST:event_lblCarrier5SlotsMouseReleased
 
@@ -438,6 +474,7 @@ public class Mar extends javax.swing.JFrame {
         currentPlacedUnits.clear();
         lblShipsMessageDialog.setText("Nave de batalla seleccionado");
         disableShipsLabels();
+        enableBoard(true);
         lblBattleship4Slots.setEnabled(true);
     }//GEN-LAST:event_lblBattleship4SlotsMouseReleased
 
@@ -449,6 +486,7 @@ public class Mar extends javax.swing.JFrame {
         currentPlacedUnits.clear();
         lblShipsMessageDialog.setText("Crucero seleccionado");
         disableShipsLabels();
+        enableBoard(true);
         lblCruiser3Slots.setEnabled(true);
     }//GEN-LAST:event_lblCruiser3SlotsMouseReleased
 
@@ -460,6 +498,7 @@ public class Mar extends javax.swing.JFrame {
         currentPlacedUnits.clear();
         lblShipsMessageDialog.setText("Submarino seleccionado");
         disableShipsLabels();
+        enableBoard(true);
         lblSubmarine3Slots.setEnabled(true);
     }//GEN-LAST:event_lblSubmarine3SlotsMouseReleased
 
@@ -471,6 +510,7 @@ public class Mar extends javax.swing.JFrame {
         currentPlacedUnits.clear();
         lblShipsMessageDialog.setText("Destructor seleccionado");
         disableShipsLabels();
+        enableBoard(true);
         lblDestroyer2Slots.setEnabled(true);
 
         System.out.println(currentPlacedUnits);
@@ -478,7 +518,10 @@ public class Mar extends javax.swing.JFrame {
 
     private void tblSeaMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblSeaMouseReleased
         // TODO add your handling code here:
-
+        if (!seaBoardEnabled) {
+            tblSea.setEnabled(false);
+            return;
+        }
         if (lblCarrier5Slots.isEnabled()) {
             ship5Slots = false;
             setUnits(5, "Portaaviones", tblSea, lblCarrier5Slots);
@@ -499,14 +542,19 @@ public class Mar extends javax.swing.JFrame {
 
     }//GEN-LAST:event_tblSeaMouseReleased
 
+    private void enableBoard(boolean setEnabled) {
+        seaBoardEnabled = setEnabled;
+    }
+
+
     private void btnCancelarSeleccionMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCancelarSeleccionMouseReleased
         // TODO add your handling code here:
         enableShipsLabels(true, true, true, true, true);
         changeSelectedShipState(true);
         currentPlacedUnits.clear();
         System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-        tblSea.setModel(modelo);
-        tblSea.repaint();
+//        tblSea.setModel(modelo);
+//        tblSea.repaint();
         seaBoard.clear();
         radarBoard.clear();
         for (int i = 0; i < 100; i++) {
@@ -518,10 +566,15 @@ public class Mar extends javax.swing.JFrame {
 
     private void tblRadarMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblRadarMouseReleased
         // TODO add your handling code here:             valores del array:  0 = celda vacia, 1=barco en celda, 2 = disparo fallado, 3 = disparo previamente acertado en celda, 4 = barco destruido
-        System.out.println("pre fired: "+radarBoard);
-        System.out.println("currentCell: "+getCellNumber(tblRadar));
+
+        if(score==17)
+            return;
         
-        switch (radarBoard.get(getCellNumber(tblRadar))){
+        
+        System.out.println("pre fired: " + radarBoard);
+        System.out.println("currentCell: " + getCellNumber(tblRadar));
+
+        switch (radarBoard.get(getCellNumber(tblRadar))) {
             case 0:
                 lblRadar.setText("Fallaste el tiro");
                 radarBoard.set(getCellNumber(tblRadar), 2);
@@ -531,6 +584,10 @@ public class Mar extends javax.swing.JFrame {
                 lblRadar.setText("Has acertado!");
                 radarBoard.set(getCellNumber(tblRadar), 3);
                 tblRadar.setValueAt("Acierto", tblRadar.getSelectedRow(), tblRadar.getSelectedColumn());
+                score+=1;
+                lblScore.setText(String.valueOf(score));
+                if(score==17)
+                    JOptionPane.showMessageDialog(null, "Has ganado","Victoria",JOptionPane.INFORMATION_MESSAGE);
                 break;
             case 2:
                 lblRadar.setText("ya has disparado en esa celda");
@@ -541,19 +598,19 @@ public class Mar extends javax.swing.JFrame {
             case 4:
                 lblRadar.setText("El barco ha sido destruido");
         }
-        
-        if(radarBoard.get(getCellNumber(tblRadar))==1){
-            lblRadar.setText("Has acertado");
-            tblRadar.setValueAt("Acierto", tblRadar.getSelectedRow(), tblRadar.getSelectedColumn());
-            radarBoard.set(getCellNumber(tblRadar),2);
-        }else if(radarBoard.get(getCellNumber(tblRadar))==2){
-            lblRadar.setText("Ya has disparado ahi");
-        }else if(radarBoard.get(getCellNumber(tblRadar))==3){
-            lblRadar.setText("esa celda ya fue destruida");
-        }else if(radarBoard.get(getCellNumber(tblRadar))==4){
-            
-        }
-        System.out.println("post fired: "+radarBoard);
+
+//        if (radarBoard.get(getCellNumber(tblRadar)) == 1) {
+//            lblRadar.setText("Has acertado");
+//            tblRadar.setValueAt("Acierto", tblRadar.getSelectedRow(), tblRadar.getSelectedColumn());
+//            radarBoard.set(getCellNumber(tblRadar), 2);
+//        } else if (radarBoard.get(getCellNumber(tblRadar)) == 2) {
+//            lblRadar.setText("Ya has disparado ahi");
+//        } else if (radarBoard.get(getCellNumber(tblRadar)) == 3) {
+//            lblRadar.setText("esa celda ya fue destruida");
+//        } else if (radarBoard.get(getCellNumber(tblRadar)) == 4) {
+//
+//        }
+        System.out.println("post fired: " + radarBoard);
     }//GEN-LAST:event_tblRadarMouseReleased
 
     private void tblRadarMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblRadarMouseMoved
@@ -563,6 +620,16 @@ public class Mar extends javax.swing.JFrame {
         int row = tblRadar.rowAtPoint(evt.getPoint());
         tblRadar.changeSelection(row, column, false, false);
     }//GEN-LAST:event_tblRadarMouseMoved
+
+    private void btnEndTurnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEndTurnActionPerformed
+        // TODO add your handling code here:
+        radarBoard=seaBoard;
+    }//GEN-LAST:event_btnEndTurnActionPerformed
+
+    private void btnConnectSSHActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConnectSSHActionPerformed
+        // TODO add your handling code here:
+        getArrayListBoardFromSsh();
+    }//GEN-LAST:event_btnConnectSSHActionPerformed
 
     private int getCellNumber(JTable table) {
         int lastSelectCell = Integer.parseInt(String.valueOf(table.getSelectedRow()) + String.valueOf(table.getSelectedColumn()));
@@ -609,11 +676,11 @@ public class Mar extends javax.swing.JFrame {
 
         currentPlacedUnits.add(getCellNumber(tblSea));
 
-        System.out.println("array ordenado: " + currentPlacedUnits);
-        System.out.println("primer elemnento del array: " + currentPlacedUnits.get(0));
-        System.out.println("ultimo elemnento del array: " + currentPlacedUnits.get(currentPlacedUnits.size() - 1));
-        System.out.println("arr size: " + (currentPlacedUnits.size()));
-        System.out.println("current cellNumber: " + getCellNumber(tblSea) + "\n\n");
+//        System.out.println("array ordenado: " + currentPlacedUnits);
+//        System.out.println("primer elemnento del array: " + currentPlacedUnits.get(0));
+//        System.out.println("ultimo elemnento del array: " + currentPlacedUnits.get(currentPlacedUnits.size() - 1));
+//        System.out.println("arr size: " + (currentPlacedUnits.size()));
+//        System.out.println("current cellNumber: " + getCellNumber(tblSea) + "\n\n");
 
         if ((currentPlacedUnits.size() > 1) && (currentPlacedUnits.get(0) > 1) || (currentPlacedUnits.get(currentPlacedUnits.size() - 1) < 1)) {
             if (currentPlacedUnits.get(0) - 1 == getCellNumber(tblSea) || currentPlacedUnits.get(currentPlacedUnits.size() - 2) + 1 == getCellNumber(tblSea)) {
@@ -633,16 +700,7 @@ public class Mar extends javax.swing.JFrame {
                 return;
             }
         }
-//        
-//        if ((currentPlacedUnits.size() > 1) && (currentPlacedUnits.get(0) > 10) || (currentPlacedUnits.get(currentPlacedUnits.size() - 1) < 10)) {
-//            if (currentPlacedUnits.get(0) - 10 == getCellNumber() || currentPlacedUnits.get(currentPlacedUnits.size() - 2) + 10 == getCellNumber()) {
-//                lblShipsMessageDialog.setText("es continuo");
-//            } else {
-//                lblShipsMessageDialog.setText("Seleccione celdas continuas");
-//                currentPlacedUnits.remove(currentPlacedUnits.size() - 1);
-//                return;
-//            }
-//        }
+
 
         tblSea.setValueAt(shipName, table.getSelectedRow(), table.getSelectedColumn());
 
@@ -654,6 +712,7 @@ public class Mar extends javax.swing.JFrame {
             for (Integer units : currentPlacedUnits) {
                 seaBoard.set(units, 1);
             }
+            enableBoard(false);
         }
     }
 
@@ -763,7 +822,38 @@ public class Mar extends javax.swing.JFrame {
     }
 
     private void getArrayListBoardFromSsh() {
+        String user="fer";
+        String pass="12345";
+        String dirHost="192.168.165.121";
+        int puerto=22;
+        String rutaArchivoRemoto="/home/fer/sharedFolder/prueba.txt";
+        
+        
+        try {
+            
+            JSch jsch = new JSch();
+            Session session = jsch.getSession(user, dirHost, puerto);
+            session.setPassword(pass);
+            session.setConfig("StrictHostKeyChecking","no");
+            System.out.println("Estbleciendo conexion");
+            session.connect();
+            System.out.println("Conexion establecida");
+            ChannelSftp channelSftp = (ChannelSftp) session.openChannel("sftp");
+            channelSftp .connect();
+            System.out.println("Canal sftp creado");
+            
+            InputStream inputStream = channelSftp.get(rutaArchivoRemoto);
 
+            try (Scanner scanner = new Scanner(new InputStreamReader(inputStream))) {
+                while (scanner.hasNextLine()) {
+                    String line = scanner.nextLine();
+                    System.out.println(line);
+                }
+            }
+        } catch (JSchException | SftpException e) {
+            e.printStackTrace();
+        }
+        
     }
 
     private void setArrayListBoardToSsh() {
@@ -772,6 +862,8 @@ public class Mar extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCancelarSeleccion;
+    private javax.swing.JButton btnConnectSSH;
+    private javax.swing.JButton btnEndTurn;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -780,6 +872,7 @@ public class Mar extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel lblBattleship4Slots;
@@ -801,6 +894,7 @@ public class Mar extends javax.swing.JFrame {
     private javax.swing.JLabel lblCruiser3Slots;
     private javax.swing.JLabel lblDestroyer2Slots;
     private javax.swing.JLabel lblRadar;
+    private javax.swing.JLabel lblScore;
     private javax.swing.JLabel lblShipsMessageDialog;
     private javax.swing.JLabel lblSubmarine3Slots;
     private javax.swing.JTable tblRadar;
